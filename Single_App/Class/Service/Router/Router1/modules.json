@@ -1,0 +1,14 @@
+
+[
+ {"moduleID":10001,
+ "targetVC":"LBaseController",
+ "params":{"name":"alexluan","address":"shanghai"},
+ "des":"vc base routeprotocol://RouterProject:10001?name=1&age=2"
+ },
+ {"moduleID":10002,
+     "targetVC":"RouteFirstController",
+     "params":{},
+     "des":"vc base routeprotocol://RouterProject:10002?name=1&age=2"
+ }
+ ]
+

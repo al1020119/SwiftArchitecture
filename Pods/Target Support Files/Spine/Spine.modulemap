@@ -1,0 +1,6 @@
+framework module Spine {
+  umbrella header "Spine-umbrella.h"
+
+  export *
+  module * { export * }
+}
