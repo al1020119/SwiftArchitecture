@@ -3,11 +3,32 @@ PODS:
     - RxCocoa (~> 4.3)
     - RxSwift (~> 4.3)
   - Alamofire (4.8.0)
+  - Bugly (2.5.0)
+  - Closures (0.5)
   - CryptoSwift (0.13.1)
   - Differentiator (3.1.0)
   - HandyJSON (4.2.1)
+  - Hero (1.4.0)
   - Kingfisher (4.10.1)
   - lottie-ios (2.5.2)
+  - mob_sharesdk (4.2.1.1):
+    - mob_sharesdk/ShareSDK (= 4.2.1.1)
+    - MOBFoundation
+  - mob_sharesdk/ShareSDK (4.2.1.1):
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/QQ (4.2.1.1):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/SinaWeibo (4.2.1.1):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/WeChat (4.2.1.1):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKUI (4.2.1.1):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - MOBFoundation (3.2.1)
   - Moya/Core (12.0.1):
     - Alamofire (~> 4.1)
     - Result (~> 4.0)
@@ -16,7 +37,7 @@ PODS:
     - RxSwift (~> 4.0)
   - "NSObject+Rx (4.4.1)":
     - RxSwift (~> 4.3)
-  - Result (4.0.0)
+  - Result (4.1.0)
   - RxAtomic (4.4.0)
   - RxCocoa (4.4.0):
     - RxSwift (~> 4.0)
@@ -40,18 +61,35 @@ PODS:
   - SQLite.swift (0.11.5):
     - SQLite.swift/standard (= 0.11.5)
   - SQLite.swift/standard (0.11.5)
+  - SwiftTheme (0.4.3)
+  - SwiftyAttributes (5.0.0)
   - SwiftyJSON (4.2.0)
+  - SwiftySound (1.0.0)
   - SwiftyUserDefaults (4.0.0-alpha.1)
   - Then (2.4.0)
   - Toast-Swift (4.0.1)
+  - UMCAnalytics (5.5.2):
+    - UMCCommon
+  - UMCCommon (1.5.3)
+  - UMCPush (3.2.3):
+    - UMCCommon
+  - UMCSecurityPlugins (1.0.6)
   - YYCache (1.0.4)
 
 DEPENDENCIES:
   - Action
+  - Bugly
+  - Closures
   - CryptoSwift
   - HandyJSON
+  - Hero
   - Kingfisher
   - lottie-ios
+  - mob_sharesdk
+  - mob_sharesdk/ShareSDKPlatforms/QQ
+  - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+  - mob_sharesdk/ShareSDKPlatforms/WeChat
+  - mob_sharesdk/ShareSDKUI
   - Moya/RxSwift
   - "NSObject+Rx"
   - RxDataSources
@@ -61,21 +99,33 @@ DEPENDENCIES:
   - Spine
   - Spring (from `https://github.com/MengTo/Spring.git`)
   - SQLite.swift (~> 0.11.5)
+  - SwiftTheme
+  - SwiftyAttributes
   - SwiftyJSON
+  - SwiftySound
   - SwiftyUserDefaults (= 4.0.0-alpha.1)
   - Then
   - Toast-Swift
+  - UMCAnalytics
+  - UMCCommon
+  - UMCPush
+  - UMCSecurityPlugins
   - YYCache
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Action
     - Alamofire
+    - Bugly
+    - Closures
     - CryptoSwift
     - Differentiator
     - HandyJSON
+    - Hero
     - Kingfisher
     - lottie-ios
+    - mob_sharesdk
+    - MOBFoundation
     - Moya
     - "NSObject+Rx"
     - Result
@@ -87,10 +137,17 @@ SPEC REPOS:
     - SnapKit
     - Spine
     - SQLite.swift
+    - SwiftTheme
+    - SwiftyAttributes
     - SwiftyJSON
+    - SwiftySound
     - SwiftyUserDefaults
     - Then
     - Toast-Swift
+    - UMCAnalytics
+    - UMCCommon
+    - UMCPush
+    - UMCSecurityPlugins
     - YYCache
 
 EXTERNAL SOURCES:
@@ -105,14 +162,19 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   Action: 2f461c203c480b17aa99b3bb166e4329ecff6908
   Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  Closures: ad5ebce1242de44d64505bfd3b7c25b12cad3d2e
   CryptoSwift: ff68c35a53e03177d31aaa2c1e8b3e010aeed6cb
   Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
   HandyJSON: d0c5fc80204f29056d59d3e5c4587fa0b16b60a8
+  Hero: bac92350d7201a1a940003e0767c7b52ce7c99a1
   Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
   lottie-ios: 3fef45d3fabe63e3c7c2eb603dd64ddfffc73062
+  mob_sharesdk: 78dbad90fdb227017c27097be9090180da4b042a
+  MOBFoundation: ce2ba976fd435b0cb06897466b2746e639895b7d
   Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
   "NSObject+Rx": 9884a92f19b610795c431e10b4e601913b59c9e9
-  Result: 7645bb3f50c2ce726dd0ff2fa7b6f42bbe6c3713
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
   RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
   RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
@@ -122,12 +184,19 @@ SPEC CHECKSUMS:
   Spine: 3d0b8899ea206304b62b76a8f504951f5578572d
   Spring: 3d113f14575ef79aec9c5f906dfa4f5001c03254
   SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
+  SwiftTheme: 628345b948068a48d330d76dffb1a990ea5f90aa
+  SwiftyAttributes: a6e7bbac1e9a9f5c0b42e4055563ca091dda03ad
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  SwiftySound: b9c3370956fd4ed65ed79d45563070077a50a2cd
   SwiftyUserDefaults: cebe0ff9472f52699772a514b6f7155861d8069b
   Then: 71866660c7af35a7343831f7668e7cd2b62ee0f2
   Toast-Swift: e42a638589a2f95036b4bb7626cfbdde7daf0393
+  UMCAnalytics: 6654fd3c8201ff6da5c86a3ae29cd5c8436d3b7b
+  UMCCommon: 016af43c0f769feb1ae1861d65aaf2b23b89c9c7
+  UMCPush: 628b5c61be5a5036cb31eb9b3a3ab8dce7521691
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: a2543eaf74c404643521e145a12430e8b5655a21
+PODFILE CHECKSUM: 88d830e8ae15305bd7a44faae1398a735450dc65
 
 COCOAPODS: 1.6.0.beta.2

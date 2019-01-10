@@ -12,12 +12,12 @@
 //  Single_App
 //  UIImageView+Extension.swift
 //
-//  Created by iCocos on 2018/12/21.
-//  Copyright © 2018年 iCocos. All rights reserved.
+//  Created by iCocos on 2019/01/05.
+//  Copyright © 2019年 iCocos. All rights reserved.
 //
 // @class UIImageView+Extension.swift
-// @abstract <#类的描述#>
-// @discussion <#类的功能#>
+// @abstract UIImageView拓展
+// @discussion 实现UIImageView分类拓展操作
 //
 //░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 // **************************************************************

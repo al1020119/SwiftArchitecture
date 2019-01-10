@@ -12,18 +12,27 @@
 //  Single_App
 //  UIColor+Extension.swift
 //
-//  Created by iCocos on 2018/12/21.
-//  Copyright © 2018年 iCocos. All rights reserved.
+//  Created by iCocos on 2019/01/06.
+//  Copyright © 2019年 iCocos. All rights reserved.
 //
 // @class UIColor+Extension.swift
-// @abstract <#类的描述#>
-// @discussion <#类的功能#>
+// @abstract UIColor拓展
+// @discussion 实现UIColor分类拓展操作
 //
 //░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 // **************************************************************
 
 import Foundation
 import UIKit
+
+extension UIColor {
+    convenience init(r: CGFloat, g: CGFloat, b: CGFloat) {
+        self.init(red: r/255.0, green: g/255.0, blue: b/255.0, alpha: 1.0)
+    }
+    class func rendomColor() -> UIColor{
+        return UIColor(r: CGFloat(arc4random_uniform(256)), g: CGFloat(arc4random_uniform(256)), b: CGFloat(arc4random_uniform(256)))
+    }
+}
 
 extension UIColor {
     class func RGB_Float(r:CGFloat,g:CGFloat,b:CGFloat) -> UIColor? {

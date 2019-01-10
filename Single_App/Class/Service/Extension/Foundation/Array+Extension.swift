@@ -12,12 +12,12 @@
 //  Single_App
 //  Array+Extension.swift
 //
-//  Created by iCocos on 2018/12/21.
-//  Copyright © 2018年 iCocos. All rights reserved.
+//  Created by iCocos on 2019/01/06.
+//  Copyright © 2019年 iCocos. All rights reserved.
 //
 // @class Array+Extension.swift
-// @abstract <#类的描述#>
-// @discussion <#类的功能#>
+// @abstract Array拓展
+// @discussion 实现Array分类拓展操作
 //
 //░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 // **************************************************************

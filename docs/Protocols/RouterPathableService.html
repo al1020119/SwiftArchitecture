@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>RouterPathableService Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Protocol/RouterPathableService" class="dashAnchor"></a>
+    <a title="RouterPathableService Protocol Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (37% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        RouterPathableService Protocol Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:10Single_App0B6ConfigC">AppConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AppToast.html">AppToast</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Badge.html">Badge</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Badge/BadgeType.html">– BadgeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Codeable.html">Codeable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Key.html">Key</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NetworkStatusManager.html">NetworkStatusManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NetworkingHandler.html">NetworkingHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Regex.html">Regex</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RouterService.html">RouterService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RouterUtilsService.html">RouterUtilsService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SQLiteConfig.html">SQLiteConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SQLiteModel.html">SQLiteModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SwiftyFitsize.html">SwiftyFitsize</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TextPrintControl.html">TextPrintControl</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TiledMapStyleKit.html">TiledMapStyleKit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Tool.html">Tool</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UIViewFrameExtension.html">UIViewFrameExtension</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WeakReference.html">WeakReference</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App0B10MainScreenSo8UIScreenCvp">AppMainScreen</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App0B10MainWindowSo8UIWindowCSgvp">AppMainWindow</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App19ButtonDefaultHeight12CoreGraphics7CGFloatVvp">ButtonDefaultHeight</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App18DefaultFileManagerSo06NSFileE0Cvp">DefaultFileManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App25DefaultNotificationCenterSo014NSNotificationE0Cvp">DefaultNotificationCenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App23HomeIndicatorAreaHeight12CoreGraphics7CGFloatVvp">HomeIndicatorAreaHeight</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App18LabelDefaultHeight12CoreGraphics7CGFloatVvp">LabelDefaultHeight</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App10MainBundleSo8NSBundleCvp">MainBundle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App26NavigationBarDefaultHeight12CoreGraphics7CGFloatVvp">NavigationBarDefaultHeight</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App18RootViewControllerSo06UIViewE0CSgvp">RootViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App17SharedApplicationSo13UIApplicationCvp">SharedApplication</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App0A20_NotificationDefaultSo20NSNotificationCenterCvp">Single_NotificationDefault</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App0A20_UserDefaultStandardSo14NSUserDefaultsCvp">Single_UserDefaultStandard</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App20StandardUserDefaultsSo06NSUserE0Cvp">StandardUserDefaults</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App22StatusBarDefaultHeight12CoreGraphics7CGFloatVvp">StatusBarDefaultHeight</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App19TabBarDefaultHeight12CoreGraphics7CGFloatVvp">TabBarDefaultHeight</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App26TableViewCellDefaultHeight12CoreGraphics7CGFloatVvp">TableViewCellDefaultHeight</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App22TextFieldDefaultHeight12CoreGraphics7CGFloatVvp">TextFieldDefaultHeight</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App20ToolBarDefaultHeight12CoreGraphics7CGFloatVvp">ToolBarDefaultHeight</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App22TopLayoutDefaultHeight12CoreGraphics7CGFloatVvp">TopLayoutDefaultHeight</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App19ViewDefaultInterval12CoreGraphics7CGFloatVvp">ViewDefaultInterval</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App8debugUrlSSvp">debugUrl</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App9isReleaseSbvp">isRelease</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App10is_iPhoneXSbvp">is_iPhoneX</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App10releaseUrlSSvp">releaseUrl</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/APIError.html">APIError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/APIService.html">APIService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DeviceDiagonal.html">DeviceDiagonal</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DeviceType.html">DeviceType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/HttpStatus.html">HttpStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LogLevel.html">LogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/RGLineDirection.html">RGLineDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SingleDeviceType.html">SingleDeviceType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SwiftyFitType.html">SwiftyFitType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Connection.html">Connection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/DateFormatter.html">DateFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/DateFormatter/codeable.html">– codeable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Dictionary.html">Dictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/DispatchQueue.html">DispatchQueue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Double.html">Double</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Int.html">Int</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSDate.html">NSDate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSDictionary.html">NSDictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSLayoutConstraint.html">NSLayoutConstraint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSNumber.html">NSNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Notification.html">Notification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Notification/Name.html">– Name</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Observable.html">Observable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Table.html">Table</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Timer.html">Timer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Timer/codeable.html">– codeable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIBarButtonItem.html">UIBarButtonItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIButton.html">UIButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIDevice.html">UIDevice</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage/codeable.html">– codeable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImageView.html">UIImageView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UILabel.html">UILabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITabBarItem.html">UITabBarItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITextField.html">UITextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITextView.html">UITextView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIViewController.html">UIViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIWindow.html">UIWindow</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UserDefaults.html">UserDefaults</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App15ClassFromStringyyXlXpSgSSF">ClassFromString(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App6KitLog_8fileName06methodF010lineNumberyx_S2SSitlF">KitLog(_:fileName:methodName:lineNumber:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App12dataFromFiley10Foundation4DataVSgSSF">dataFromFile(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App15getSQLiteDBPathSSSgyF">getSQLiteDBPath()</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/save(db:_:completion:)">save(db:_:completion:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/saveAsync(db:_:completion:)">saveAsync(db:_:completion:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App1toPy12CoreGraphics7CGFloatVAEF">~(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App1toPy12CoreGraphics7CGFloatVSfF">~(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App1toPy12CoreGraphics7CGFloatVSiF">~(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App1toPySo12UIEdgeInsetsVADF">~(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App1toPySo6CGRectVADF">~(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App1toPySo6CGSizeVADF">~(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App1toPySo6UIFontCADF">~(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App1toPySo7CGPointVADF">~(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App003dchoPy12CoreGraphics7CGFloatVAEF">≈(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App003dchoPy12CoreGraphics7CGFloatVSfF">≈(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App003dchoPy12CoreGraphics7CGFloatVSiF">≈(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App003dchoPySo12UIEdgeInsetsVADF">≈(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App003dchoPySo6CGRectVADF">≈(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App003dchoPySo6CGSizeVADF">≈(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App003dchoPySo6UIFontCADF">≈(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App003dchoPySo7CGPointVADF">≈(_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/AppToolsCompatible.html">AppToolsCompatible</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BaseModel.html">BaseModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CodeableCompatible.html">CodeableCompatible</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CreateColumnsProtocol.html">CreateColumnsProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Deviceable.html">Deviceable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Routable.html">Routable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/RouterPathableService.html">RouterPathableService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SQLiteProtocol.html">SQLiteProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Then.html">Then</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/AppTools.html">AppTools</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DateExtension.html">DateExtension</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DoubleExtension.html">DoubleExtension</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/IntExtension.html">IntExtension</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Logger.html">Logger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Logger/Level.html">– Level</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MainScreen.html">MainScreen</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MethodInfo.html">MethodInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/NetworkResponse.html">NetworkResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PasswordType.html">PasswordType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/StringExtension.html">StringExtension</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:10Single_App2NRa">NR</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:10Single_App22RouterServiceParametera">RouterServiceParameter</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>RouterPathableService</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">RouterPathableService</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App21RouterPathableServiceP3anyyXlXpvp"></a>
+                    <a name="//apple_ref/swift/Property/any" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App21RouterPathableServiceP3anyyXlXpvp">any</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">any</span><span class="p">:</span> <span class="kt">AnyClass</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App21RouterPathableServiceP6paramsSDySSypGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/params" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App21RouterPathableServiceP6paramsSDySSypGSgvp">params</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">params</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:10Single_App22RouterServiceParametera">RouterServiceParameter</a></span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2019-01-08)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

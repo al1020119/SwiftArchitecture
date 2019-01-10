@@ -1,0 +1,20 @@
+{
+    "data": {
+        "friends": [
+                        {
+                            "name": "Huckleberry Finn",
+                            "pictureUrl": "finn"
+                        },
+                        {
+                            "name": "Becky Thatcher",
+                            "pictureUrl": "becky"
+                        },
+                        {
+                            "name": "Celeste Holm",
+                            "pictureUrl": "holm"
+                        }
+                    ]
+    },
+    "error": 0,
+    "message": "Success"
+}

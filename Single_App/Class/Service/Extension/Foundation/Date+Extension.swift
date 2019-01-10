@@ -12,12 +12,12 @@
 //  Single_App
 //  Date+Extension.swift
 //
-//  Created by iCocos on 2018/12/21.
+//  Created by iCocos on 2018/12/23.
 //  Copyright © 2018年 iCocos. All rights reserved.
 //
 // @class Date+Extension.swift
-// @abstract <#类的描述#>
-// @discussion <#类的功能#>
+// @abstract Date拓展
+// @discussion 实现Date分类拓展操作
 //
 //░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 // **************************************************************

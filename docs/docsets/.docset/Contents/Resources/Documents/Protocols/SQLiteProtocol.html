@@ -1,0 +1,2354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SQLiteProtocol Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Protocol/SQLiteProtocol" class="dashAnchor"></a>
+    <a title="SQLiteProtocol Protocol Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (37% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        SQLiteProtocol Protocol Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:10Single_App0B6ConfigC">AppConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AppToast.html">AppToast</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Badge.html">Badge</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Badge/BadgeType.html">– BadgeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Codeable.html">Codeable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Key.html">Key</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NetworkStatusManager.html">NetworkStatusManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NetworkingHandler.html">NetworkingHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Regex.html">Regex</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RouterService.html">RouterService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RouterUtilsService.html">RouterUtilsService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SQLiteConfig.html">SQLiteConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SQLiteModel.html">SQLiteModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SwiftyFitsize.html">SwiftyFitsize</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TextPrintControl.html">TextPrintControl</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TiledMapStyleKit.html">TiledMapStyleKit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Tool.html">Tool</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UIViewFrameExtension.html">UIViewFrameExtension</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WeakReference.html">WeakReference</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App0B10MainScreenSo8UIScreenCvp">AppMainScreen</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App0B10MainWindowSo8UIWindowCSgvp">AppMainWindow</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App19ButtonDefaultHeight12CoreGraphics7CGFloatVvp">ButtonDefaultHeight</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App18DefaultFileManagerSo06NSFileE0Cvp">DefaultFileManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App25DefaultNotificationCenterSo014NSNotificationE0Cvp">DefaultNotificationCenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App23HomeIndicatorAreaHeight12CoreGraphics7CGFloatVvp">HomeIndicatorAreaHeight</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App18LabelDefaultHeight12CoreGraphics7CGFloatVvp">LabelDefaultHeight</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App10MainBundleSo8NSBundleCvp">MainBundle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App26NavigationBarDefaultHeight12CoreGraphics7CGFloatVvp">NavigationBarDefaultHeight</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App18RootViewControllerSo06UIViewE0CSgvp">RootViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App17SharedApplicationSo13UIApplicationCvp">SharedApplication</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App0A20_NotificationDefaultSo20NSNotificationCenterCvp">Single_NotificationDefault</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App0A20_UserDefaultStandardSo14NSUserDefaultsCvp">Single_UserDefaultStandard</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App20StandardUserDefaultsSo06NSUserE0Cvp">StandardUserDefaults</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App22StatusBarDefaultHeight12CoreGraphics7CGFloatVvp">StatusBarDefaultHeight</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App19TabBarDefaultHeight12CoreGraphics7CGFloatVvp">TabBarDefaultHeight</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App26TableViewCellDefaultHeight12CoreGraphics7CGFloatVvp">TableViewCellDefaultHeight</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App22TextFieldDefaultHeight12CoreGraphics7CGFloatVvp">TextFieldDefaultHeight</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App20ToolBarDefaultHeight12CoreGraphics7CGFloatVvp">ToolBarDefaultHeight</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App22TopLayoutDefaultHeight12CoreGraphics7CGFloatVvp">TopLayoutDefaultHeight</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App19ViewDefaultInterval12CoreGraphics7CGFloatVvp">ViewDefaultInterval</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App8debugUrlSSvp">debugUrl</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App9isReleaseSbvp">isRelease</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App10is_iPhoneXSbvp">is_iPhoneX</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:10Single_App10releaseUrlSSvp">releaseUrl</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/APIError.html">APIError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/APIService.html">APIService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DeviceDiagonal.html">DeviceDiagonal</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DeviceType.html">DeviceType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/HttpStatus.html">HttpStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LogLevel.html">LogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/RGLineDirection.html">RGLineDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SingleDeviceType.html">SingleDeviceType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SwiftyFitType.html">SwiftyFitType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Connection.html">Connection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/DateFormatter.html">DateFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/DateFormatter/codeable.html">– codeable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Dictionary.html">Dictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/DispatchQueue.html">DispatchQueue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Double.html">Double</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Int.html">Int</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSDate.html">NSDate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSDictionary.html">NSDictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSLayoutConstraint.html">NSLayoutConstraint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSNumber.html">NSNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Notification.html">Notification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Notification/Name.html">– Name</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Observable.html">Observable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Table.html">Table</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Timer.html">Timer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Timer/codeable.html">– codeable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIBarButtonItem.html">UIBarButtonItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIButton.html">UIButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIDevice.html">UIDevice</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage/codeable.html">– codeable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImageView.html">UIImageView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UILabel.html">UILabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITabBarItem.html">UITabBarItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITextField.html">UITextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITextView.html">UITextView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIViewController.html">UIViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIWindow.html">UIWindow</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UserDefaults.html">UserDefaults</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App15ClassFromStringyyXlXpSgSSF">ClassFromString(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App6KitLog_8fileName06methodF010lineNumberyx_S2SSitlF">KitLog(_:fileName:methodName:lineNumber:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App12dataFromFiley10Foundation4DataVSgSSF">dataFromFile(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App15getSQLiteDBPathSSSgyF">getSQLiteDBPath()</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/save(db:_:completion:)">save(db:_:completion:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/saveAsync(db:_:completion:)">saveAsync(db:_:completion:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App1toPy12CoreGraphics7CGFloatVAEF">~(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App1toPy12CoreGraphics7CGFloatVSfF">~(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App1toPy12CoreGraphics7CGFloatVSiF">~(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App1toPySo12UIEdgeInsetsVADF">~(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App1toPySo6CGRectVADF">~(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App1toPySo6CGSizeVADF">~(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App1toPySo6UIFontCADF">~(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App1toPySo7CGPointVADF">~(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App003dchoPy12CoreGraphics7CGFloatVAEF">≈(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App003dchoPy12CoreGraphics7CGFloatVSfF">≈(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App003dchoPy12CoreGraphics7CGFloatVSiF">≈(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App003dchoPySo12UIEdgeInsetsVADF">≈(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App003dchoPySo6CGRectVADF">≈(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App003dchoPySo6CGSizeVADF">≈(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App003dchoPySo6UIFontCADF">≈(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Single_App003dchoPySo7CGPointVADF">≈(_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/AppToolsCompatible.html">AppToolsCompatible</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BaseModel.html">BaseModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CodeableCompatible.html">CodeableCompatible</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CreateColumnsProtocol.html">CreateColumnsProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Deviceable.html">Deviceable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Routable.html">Routable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/RouterPathableService.html">RouterPathableService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SQLiteProtocol.html">SQLiteProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Then.html">Then</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/AppTools.html">AppTools</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DateExtension.html">DateExtension</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DoubleExtension.html">DoubleExtension</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/IntExtension.html">IntExtension</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Logger.html">Logger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Logger/Level.html">– Level</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MainScreen.html">MainScreen</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MethodInfo.html">MethodInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/NetworkResponse.html">NetworkResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PasswordType.html">PasswordType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/StringExtension.html">StringExtension</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:10Single_App2NRa">NR</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:10Single_App22RouterServiceParametera">RouterServiceParameter</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>SQLiteProtocol</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">SQLiteProtocol</span> <span class="p">:</span> <span class="kt">AnyObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/FindFirst"></a>
+                <a name="//apple_ref/swift/Section/FindFirst" class="dashAnchor"></a>
+                <a href="#/FindFirst">
+                  <h3 class="section-name">FindFirst</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE9findFirst_5valuexSgSS_ypSgtFZ"></a>
+                    <a name="//apple_ref/swift/Method/findFirst(_:value:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE9findFirst_5valuexSgSS_ypSgtFZ">findFirst(_:value:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">findFirst</span><span class="p">(</span><span class="n">_</span> <span class="nv">attribute</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Any</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="k">Self</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE9findFirstyxSgSDySSypSgGFZ"></a>
+                    <a name="//apple_ref/swift/Method/findFirst(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE9findFirstyxSgSDySSypSgGFZ">findFirst(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">findFirst</span><span class="p">(</span><span class="n">_</span> <span class="nv">attributeAndValueDic</span><span class="p">:</span> <span class="kt">Dictionary</span><span class="o">&lt;</span><span class="kt">String</span><span class="p">,</span> <span class="kt">Any</span><span class="p">?</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE9findFirst11orderColumn9ascendingxSgSS_SbtFZ"></a>
+                    <a name="//apple_ref/swift/Method/findFirst(orderColumn:ascending:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE9findFirst11orderColumn9ascendingxSgSS_SbtFZ">findFirst(orderColumn:ascending:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">findFirst</span><span class="p">(</span><span class="nv">orderColumn</span><span class="p">:</span><span class="kt">String</span><span class="p">,</span><span class="nv">ascending</span><span class="p">:</span><span class="kt">Bool</span> <span class="o">=</span> <span class="kc">true</span><span class="p">)</span><span class="o">-&gt;</span><span class="k">Self</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE9findFirst6ordersxSgSDySSSbGSg_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/findFirst(orders:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE9findFirst6ordersxSgSDySSSbGSg_tFZ">findFirst(orders:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">findFirst</span><span class="p">(</span><span class="nv">orders</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">Bool</span><span class="p">]?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span><span class="o">-&gt;</span><span class="k">Self</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE9findFirst_5value_9ascendingxSgSS_ypSgSSSbtFZ"></a>
+                    <a name="//apple_ref/swift/Method/findFirst(_:value:_:ascending:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE9findFirst_5value_9ascendingxSgSS_ypSgSSSbtFZ">findFirst(_:value:_:ascending:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">findFirst</span><span class="p">(</span><span class="n">_</span> <span class="nv">attribute</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">value</span><span class="p">:</span><span class="kt">Any</span><span class="p">?,</span><span class="n">_</span> <span class="nv">orderBy</span><span class="p">:</span><span class="kt">String</span><span class="p">,</span><span class="nv">ascending</span><span class="p">:</span><span class="kt">Bool</span> <span class="o">=</span> <span class="kc">true</span><span class="p">)</span><span class="o">-&gt;</span><span class="k">Self</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE9findFirstyxSgSDySSypSgGSg_SDySSSbGSgtFZ"></a>
+                    <a name="//apple_ref/swift/Method/findFirst(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE9findFirstyxSgSDySSypSgGSg_SDySSSbGSgtFZ">findFirst(_:_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">findFirst</span><span class="p">(</span><span class="n">_</span> <span class="nv">attributeAndValueDic</span><span class="p">:</span><span class="kt">Dictionary</span><span class="o">&lt;</span><span class="kt">String</span><span class="p">,</span><span class="kt">Any</span><span class="p">?</span><span class="o">&gt;</span><span class="p">?,</span><span class="n">_</span> <span class="nv">orders</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">Bool</span><span class="p">]?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span><span class="o">-&gt;</span><span class="k">Self</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/findFirst(_:orders:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">findFirst(_:orders:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">findFirst</span><span class="p">(</span><span class="n">_</span> <span class="nv">predicate</span><span class="p">:</span> <span class="kt">SQLite</span><span class="o">.</span><span class="kt">Expression</span><span class="o">&lt;</span><span class="kt">Bool</span><span class="o">&gt;</span><span class="p">,</span> <span class="nv">orders</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Bool</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="k">Self</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/FindAll"></a>
+                <a name="//apple_ref/swift/Section/FindAll" class="dashAnchor"></a>
+                <a href="#/FindAll">
+                  <h3 class="section-name">FindAll</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE7findAll_5valueSayxGSS_ypSgtFZ"></a>
+                    <a name="//apple_ref/swift/Method/findAll(_:value:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE7findAll_5valueSayxGSS_ypSgtFZ">findAll(_:value:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">findAll</span><span class="p">(</span><span class="n">_</span> <span class="nv">attribute</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Any</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Array</span><span class="o">&lt;</span><span class="k">Self</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE7findAllySayxGSDySSypSgGFZ"></a>
+                    <a name="//apple_ref/swift/Method/findAll(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE7findAllySayxGSDySSypSgGFZ">findAll(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">findAll</span><span class="p">(</span><span class="n">_</span> <span class="nv">attributeAndValueDic</span><span class="p">:</span> <span class="kt">Dictionary</span><span class="o">&lt;</span><span class="kt">String</span><span class="p">,</span> <span class="kt">Any</span><span class="p">?</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Array</span><span class="o">&lt;</span><span class="k">Self</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE7findAll11orderColumn9ascendingSayxGSS_SbtFZ"></a>
+                    <a name="//apple_ref/swift/Method/findAll(orderColumn:ascending:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE7findAll11orderColumn9ascendingSayxGSS_SbtFZ">findAll(orderColumn:ascending:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">findAll</span><span class="p">(</span><span class="nv">orderColumn</span><span class="p">:</span><span class="kt">String</span><span class="p">,</span><span class="nv">ascending</span><span class="p">:</span><span class="kt">Bool</span> <span class="o">=</span> <span class="kc">true</span><span class="p">)</span><span class="o">-&gt;</span><span class="kt">Array</span><span class="o">&lt;</span><span class="k">Self</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE7findAll6ordersSayxGSDySSSbGSg_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/findAll(orders:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE7findAll6ordersSayxGSDySSSbGSg_tFZ">findAll(orders:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">findAll</span><span class="p">(</span><span class="nv">orders</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">Bool</span><span class="p">]?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span><span class="o">-&gt;</span><span class="kt">Array</span><span class="o">&lt;</span><span class="k">Self</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE7findAll_6ordersSayxGSDySSypSgG_SDySSSbGtFZ"></a>
+                    <a name="//apple_ref/swift/Method/findAll(_:orders:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE7findAll_6ordersSayxGSDySSypSgG_SDySSSbGtFZ">findAll(_:orders:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">findAll</span><span class="p">(</span><span class="n">_</span> <span class="nv">attributeAndValueDic</span><span class="p">:</span> <span class="kt">Dictionary</span><span class="o">&lt;</span><span class="kt">String</span><span class="p">,</span> <span class="kt">Any</span><span class="p">?</span><span class="o">&gt;</span><span class="p">,</span> <span class="nv">orders</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Bool</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt">Array</span><span class="o">&lt;</span><span class="k">Self</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE7findAllySayxGSDySSypSgGSg_SDySSSbGSgtFZ"></a>
+                    <a name="//apple_ref/swift/Method/findAll(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE7findAllySayxGSDySSypSgGSg_SDySSSbGSgtFZ">findAll(_:_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">findAll</span><span class="p">(</span><span class="n">_</span> <span class="nv">attributeAndValueDic</span><span class="p">:</span><span class="kt">Dictionary</span><span class="o">&lt;</span><span class="kt">String</span><span class="p">,</span><span class="kt">Any</span><span class="p">?</span><span class="o">&gt;</span><span class="p">?,</span><span class="n">_</span> <span class="nv">orders</span><span class="p">:[</span><span class="kt">String</span><span class="p">:</span><span class="kt">Bool</span><span class="p">]?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span><span class="o">-&gt;</span><span class="kt">Array</span><span class="o">&lt;</span><span class="k">Self</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/findAll(_:orders:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">findAll(_:orders:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">findAll</span><span class="p">(</span><span class="n">_</span> <span class="nv">predicate</span><span class="p">:</span> <span class="kt">SQLite</span><span class="o">.</span><span class="kt">Expression</span><span class="o">&lt;</span><span class="kt">Bool</span><span class="o">&gt;</span><span class="p">,</span> <span class="nv">orders</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Bool</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt">Array</span><span class="o">&lt;</span><span class="k">Self</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/findAll(_:order:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">findAll(_:order:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">findAll</span><span class="p">(</span><span class="n">_</span> <span class="nv">predicate</span><span class="p">:</span> <span class="kt">SQLite</span><span class="o">.</span><span class="kt">Expression</span><span class="o">&lt;</span><span class="kt">Bool</span><span class="o">&gt;</span><span class="p">,</span> <span class="nv">order</span><span class="p">:</span> <span class="kt">Expressible</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Array</span><span class="o">&lt;</span><span class="k">Self</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/findAll(order:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">findAll(order:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">findAll</span><span class="p">(</span><span class="nv">order</span><span class="p">:</span> <span class="kt">Expressible</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Array</span><span class="o">&lt;</span><span class="k">Self</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE3runSayxGyF"></a>
+                    <a name="//apple_ref/swift/Method/run()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE3runSayxGyF">run()</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">run</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Array</span><span class="o">&lt;</span><span class="k">Self</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Query"></a>
+                <a name="//apple_ref/swift/Section/Query" class="dashAnchor"></a>
+                <a href="#/Query">
+                  <h3 class="section-name">Query</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Property/query" class="dashAnchor"></a>
+                    <a class="token" href="#/">query</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">query</span><span class="p">:</span> <span class="kt">QueryType</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/join(_:on:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">join(_:on:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">join</span><span class="p">(</span><span class="n">_</span> <span class="nv">table</span><span class="p">:</span> <span class="kt">QueryType</span><span class="p">,</span> <span class="n">on</span> <span class="nv">condition</span><span class="p">:</span> <span class="kt">Expression</span><span class="o">&lt;</span><span class="kt">Bool</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="o">&lt;&lt;</span><span class="n">error</span> <span class="n">type</span><span class="o">&gt;&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/join(_:_:on:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">join(_:_:on:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">join</span><span class="p">(</span><span class="n">_</span> <span class="nv">type</span><span class="p">:</span> <span class="kt">JoinType</span><span class="p">,</span> <span class="n">_</span> <span class="nv">table</span><span class="p">:</span> <span class="kt">QueryType</span><span class="p">,</span> <span class="n">on</span> <span class="nv">condition</span><span class="p">:</span> <span class="kt">Expression</span><span class="o">&lt;</span><span class="kt">Bool</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="o">&lt;&lt;</span><span class="n">error</span> <span class="n">type</span><span class="o">&gt;&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE5where_5valuexSS_ypSgtF"></a>
+                    <a name="//apple_ref/swift/Method/where(_:value:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE5where_5valuexSS_ypSgtF">where(_:value:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="err">`</span><span class="k">where</span><span class="err">`</span><span class="p">(</span><span class="n">_</span> <span class="nv">attribute</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Any</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE5whereyxSDySSypSgGF"></a>
+                    <a name="//apple_ref/swift/Method/where(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE5whereyxSDySSypSgGF">where(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="err">`</span><span class="k">where</span><span class="err">`</span><span class="p">(</span><span class="n">_</span> <span class="nv">attributeAndValueDic</span><span class="p">:</span> <span class="kt">Dictionary</span><span class="o">&lt;</span><span class="kt">String</span><span class="p">,</span> <span class="kt">Any</span><span class="p">?</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/where(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">where(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="err">`</span><span class="k">where</span><span class="err">`</span><span class="p">(</span><span class="n">_</span> <span class="nv">predicate</span><span class="p">:</span> <span class="kt">SQLite</span><span class="o">.</span><span class="kt">Expression</span><span class="o">&lt;</span><span class="kt">Bool</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="o">&lt;&lt;</span><span class="n">error</span> <span class="n">type</span><span class="o">&gt;&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/group(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">group(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">group</span><span class="p">(</span><span class="n">_</span> <span class="nv">by</span><span class="p">:</span> <span class="kt">Expressible</span><span class="o">...</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="o">&lt;&lt;</span><span class="n">error</span> <span class="n">type</span><span class="o">&gt;&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/group(_:having:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">group(_:having:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">group</span><span class="p">(</span><span class="n">_</span> <span class="nv">by</span><span class="p">:</span> <span class="kt">Expressible</span><span class="p">,</span> <span class="nv">having</span><span class="p">:</span> <span class="kt">Expression</span><span class="o">&lt;</span><span class="kt">Bool</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="o">&lt;&lt;</span><span class="n">error</span> <span class="n">type</span><span class="o">&gt;&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE7orderBy_3ascxSS_SbtF"></a>
+                    <a name="//apple_ref/swift/Method/orderBy(_:asc:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE7orderBy_3ascxSS_SbtF">orderBy(_:asc:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">orderBy</span><span class="p">(</span><span class="n">_</span> <span class="nv">sorted</span><span class="p">:</span><span class="kt">String</span><span class="p">,</span> <span class="nv">asc</span><span class="p">:</span><span class="kt">Bool</span> <span class="o">=</span> <span class="kc">true</span><span class="p">)</span><span class="o">-&gt;</span><span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE7orderByyxSDySSSbGF"></a>
+                    <a name="//apple_ref/swift/Method/orderBy(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE7orderByyxSDySSSbGF">orderBy(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">orderBy</span><span class="p">(</span><span class="n">_</span> <span class="nv">sorted</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Bool</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/order(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">order(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">order</span><span class="p">(</span><span class="n">_</span> <span class="nv">by</span><span class="p">:</span> <span class="kt">Expressible</span><span class="o">...</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="o">&lt;&lt;</span><span class="n">error</span> <span class="n">type</span><span class="o">&gt;&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE5limityxSiSgF"></a>
+                    <a name="//apple_ref/swift/Method/limit(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE5limityxSiSgF">limit(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">limit</span><span class="p">(</span><span class="n">_</span> <span class="nv">length</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE5limit_6offsetxSi_SitF"></a>
+                    <a name="//apple_ref/swift/Method/limit(_:offset:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE5limit_6offsetxSi_SitF">limit(_:offset:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">limit</span><span class="p">(</span><span class="n">_</span> <span class="nv">length</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">offset</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Delete"></a>
+                <a name="//apple_ref/swift/Section/Delete" class="dashAnchor"></a>
+                <a href="#/Delete">
+                  <h3 class="section-name">Delete</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE9runDeleteyyKF"></a>
+                    <a name="//apple_ref/swift/Method/runDelete()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE9runDeleteyyKF">runDelete()</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">runDelete</span><span class="p">()</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE6deleteyyKF"></a>
+                    <a name="//apple_ref/swift/Method/delete()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE6deleteyyKF">delete()</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">delete</span><span class="p">()</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE11deleteBatchyySayxGKFZ"></a>
+                    <a name="//apple_ref/swift/Method/deleteBatch(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE11deleteBatchyySayxGKFZ">deleteBatch(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">deleteBatch</span><span class="p">(</span><span class="n">_</span> <span class="nv">models</span><span class="p">:</span> <span class="p">[</span><span class="k">Self</span><span class="p">])</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE9deleteAllyyKFZ"></a>
+                    <a name="//apple_ref/swift/Method/deleteAll()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE9deleteAllyyKFZ">deleteAll()</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">deleteAll</span><span class="p">()</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Build"></a>
+                <a name="//apple_ref/swift/Section/Build" class="dashAnchor"></a>
+                <a href="#/Build">
+                  <h3 class="section-name">Build</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE29recursionPropertiesOnlyColumnSaySSSg_yptGyF"></a>
+                    <a name="//apple_ref/swift/Method/recursionPropertiesOnlyColumn()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE29recursionPropertiesOnlyColumnSaySSSg_yptGyF">recursionPropertiesOnlyColumn()</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">recursionPropertiesOnlyColumn</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">[(</span><span class="kt">String</span><span class="p">?,</span> <span class="kt">Any</span><span class="p">)]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE19recursionPropertiesSaySSSg_AGyptGyF"></a>
+                    <a name="//apple_ref/swift/Method/recursionProperties()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE19recursionPropertiesSaySSSg_AGyptGyF">recursionProperties()</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">recursionProperties</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">[(</span><span class="kt">String</span><span class="p">?,</span> <span class="kt">String</span><span class="p">?,</span> <span class="kt">Any</span><span class="p">)]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE18propertieColumnMapSDyS2SGyF"></a>
+                    <a name="//apple_ref/swift/Method/propertieColumnMap()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE18propertieColumnMapSDyS2SGyF">propertieColumnMap()</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">propertieColumnMap</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">String</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Insert"></a>
+                <a name="//apple_ref/swift/Section/Insert" class="dashAnchor"></a>
+                <a href="#/Insert">
+                  <h3 class="section-name">Insert</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE6insertyyKF"></a>
+                    <a name="//apple_ref/swift/Method/insert()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE6insertyyKF">insert()</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">insert</span><span class="p">()</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE11insertBatch6modelsySayxG_tKFZ"></a>
+                    <a name="//apple_ref/swift/Method/insertBatch(models:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE11insertBatch6modelsySayxG_tKFZ">insertBatch(models:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">insertBatch</span><span class="p">(</span><span class="nv">models</span><span class="p">:</span> <span class="p">[</span><span class="k">Self</span><span class="p">])</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Update%20one%20By%20id"></a>
+                <a name="//apple_ref/swift/Section/Update one By id" class="dashAnchor"></a>
+                <a href="#/Update%20one%20By%20id">
+                  <h3 class="section-name">Update one By id</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE6updateyyKF"></a>
+                    <a name="//apple_ref/swift/Method/update()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE6updateyyKF">update()</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">update</span><span class="p">()</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE6update_5valueySS_ypSgtKF"></a>
+                    <a name="//apple_ref/swift/Method/update(_:value:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE6update_5valueySS_ypSgtKF">update(_:value:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">update</span><span class="p">(</span><span class="n">_</span> <span class="nv">attribute</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Any</span><span class="p">?)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE6updateyySDySSypSgGKF"></a>
+                    <a name="//apple_ref/swift/Method/update(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE6updateyySDySSypSgGKF">update(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">update</span><span class="p">(</span><span class="n">_</span> <span class="nv">attributeAndValueDic</span><span class="p">:</span> <span class="kt">Dictionary</span><span class="o">&lt;</span><span class="kt">String</span><span class="p">,</span> <span class="kt">Any</span><span class="p">?</span><span class="o">&gt;</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/update(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">update(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">update</span><span class="p">(</span><span class="n">_</span> <span class="nv">setters</span><span class="p">:</span> <span class="kt">Setter</span><span class="o">...</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="o">&lt;&lt;</span><span class="n">error</span> <span class="n">type</span><span class="o">&gt;&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Update%20more%20than%20one%20by%20ids"></a>
+                <a name="//apple_ref/swift/Section/Update more than one by ids" class="dashAnchor"></a>
+                <a href="#/Update%20more%20than%20one%20by%20ids">
+                  <h3 class="section-name">Update more than one by ids</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE11updateBatch6modelsySayxG_tKFZ"></a>
+                    <a name="//apple_ref/swift/Method/updateBatch(models:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE11updateBatch6modelsySayxG_tKFZ">updateBatch(models:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">updateBatch</span><span class="p">(</span><span class="nv">models</span><span class="p">:</span> <span class="p">[</span><span class="k">Self</span><span class="p">])</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE6update_5value5where6wValueySS_ypSgSSAJtKFZ"></a>
+                    <a name="//apple_ref/swift/Method/update(_:value:where:wValue:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE6update_5value5where6wValueySS_ypSgSSAJtKFZ">update(_:value:where:wValue:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">update</span><span class="p">(</span><span class="n">_</span> <span class="nv">attribute</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Any</span><span class="p">?,</span> <span class="k">where</span> <span class="nv">wAttribute</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">wValue</span><span class="p">:</span> <span class="kt">Any</span><span class="p">?)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE6update_5whereySDySSypSgG_AItKFZ"></a>
+                    <a name="//apple_ref/swift/Method/update(_:where:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE6update_5whereySDySSypSgG_AItKFZ">update(_:where:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">update</span><span class="p">(</span><span class="n">_</span> <span class="nv">attributeAndValueDic</span><span class="p">:</span> <span class="kt">Dictionary</span><span class="o">&lt;</span><span class="kt">String</span><span class="p">,</span> <span class="kt">Any</span><span class="p">?</span><span class="o">&gt;</span><span class="p">,</span> <span class="k">where</span> <span class="nv">wAttributeAndValueDic</span><span class="p">:</span> <span class="kt">Dictionary</span><span class="o">&lt;</span><span class="kt">String</span><span class="p">,</span> <span class="kt">Any</span><span class="p">?</span><span class="o">&gt;</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Update%20more%20than%20one%20by%20where"></a>
+                <a name="//apple_ref/swift/Section/Update more than one by where" class="dashAnchor"></a>
+                <a href="#/Update%20more%20than%20one%20by%20where">
+                  <h3 class="section-name">Update more than one by where</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/update(_:where:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">update(_:where:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">update</span><span class="p">(</span><span class="n">_</span> <span class="nv">setters</span><span class="p">:</span> <span class="p">[</span><span class="kt">Setter</span><span class="p">],</span> <span class="k">where</span> <span class="nv">predicate</span><span class="p">:</span> <span class="kt">SQLite</span><span class="o">.</span><span class="kt">Expression</span><span class="o">&lt;</span><span class="kt">Bool</span><span class="o">&gt;</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="o">&lt;&lt;</span><span class="n">error</span> <span class="n">type</span><span class="o">&gt;&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/update(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">update(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">update</span><span class="p">(</span><span class="n">_</span> <span class="nv">setters</span><span class="p">:</span> <span class="p">[</span><span class="kt">Setter</span><span class="p">])</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="o">&lt;&lt;</span><span class="n">error</span> <span class="n">type</span><span class="o">&gt;&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Save"></a>
+                <a name="//apple_ref/swift/Section/Save" class="dashAnchor"></a>
+                <a href="#/Save">
+                  <h3 class="section-name">Save</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE4saveyyKF"></a>
+                    <a name="//apple_ref/swift/Method/save()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE4saveyyKF">save()</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">save</span><span class="p">()</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE11createTableyyKFZ"></a>
+                    <a name="//apple_ref/swift/Method/createTable()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE11createTableyyKFZ">createTable()</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">createTable</span><span class="p">()</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE9dropTableyyKFZ"></a>
+                    <a name="//apple_ref/swift/Method/dropTable()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE9dropTableyyKFZ">dropTable()</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">dropTable</span><span class="p">()</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Rename%20Table"></a>
+                <a name="//apple_ref/swift/Section/Rename Table" class="dashAnchor"></a>
+                <a href="#/Rename%20Table">
+                  <h3 class="section-name">Rename Table</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE11renameTable7oldName03newI0ySS_SStKFZ"></a>
+                    <a name="//apple_ref/swift/Method/renameTable(oldName:newName:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE11renameTable7oldName03newI0ySS_SStKFZ">renameTable(oldName:newName:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">renameTable</span><span class="p">(</span><span class="nv">oldName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">newName</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Add%20Column"></a>
+                <a name="//apple_ref/swift/Section/Add Column" class="dashAnchor"></a>
+                <a href="#/Add%20Column">
+                  <h3 class="section-name">Add Column</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE9addColumnyySaySSGKFZ"></a>
+                    <a name="//apple_ref/swift/Method/addColumn(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Single_App14SQLiteProtocolPA2A0C5ModelCRbzrlE9addColumnyySaySSGKFZ">addColumn(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">addColumn</span><span class="p">(</span><span class="n">_</span> <span class="nv">columnNames</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">])</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/CREATE%20INDEX"></a>
+                <a name="//apple_ref/swift/Section/CREATE INDEX" class="dashAnchor"></a>
+                <a href="#/CREATE%20INDEX">
+                  <h3 class="section-name">CREATE INDEX</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/createIndex(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">createIndex(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">createIndex</span><span class="p">(</span><span class="n">_</span> <span class="nv">columns</span><span class="p">:</span> <span class="kt">Expressible</span><span class="o">...</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="o">&lt;&lt;</span><span class="n">error</span> <span class="n">type</span><span class="o">&gt;&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/createIndex(_:unique:ifNotExists:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">createIndex(_:unique:ifNotExists:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">createIndex</span><span class="p">(</span><span class="n">_</span> <span class="nv">columns</span><span class="p">:</span> <span class="p">[</span><span class="kt">Expressible</span><span class="p">],</span> <span class="nv">unique</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">,</span> <span class="nv">ifNotExists</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">)</span><span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/DROP%20INDEX"></a>
+                <a name="//apple_ref/swift/Section/DROP INDEX" class="dashAnchor"></a>
+                <a href="#/DROP%20INDEX">
+                  <h3 class="section-name">DROP INDEX</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/dropIndex(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">dropIndex(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">dropIndex</span><span class="p">(</span><span class="n">_</span> <span class="nv">columns</span><span class="p">:</span> <span class="kt">Expressible</span><span class="o">...</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/dropIndex(_:ifExists:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">dropIndex(_:ifExists:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">dropIndex</span><span class="p">(</span><span class="n">_</span> <span class="nv">columns</span><span class="p">:</span> <span class="p">[</span><span class="kt">Expressible</span><span class="p">],</span> <span class="nv">ifExists</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2019-01-08)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

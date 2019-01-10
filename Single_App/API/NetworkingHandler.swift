@@ -10,14 +10,14 @@
 // **************************************************************
 //
 //  Single_App
-//  NetworkingHandler.swift
+//  NetworkingHandler
 //
-//  Created by iCocos on 2018/12/21.
+//  Created by iCocos on 2018/12/25.
 //  Copyright © 2018年 iCocos. All rights reserved.
 //
 // @class NetworkingHandler.swift
-// @abstract <#类的描述#>
-// @discussion <#类的功能#>
+// @abstract 网络操作
+// @discussion 实现基本网络请求和数据逻辑操作
 //
 //░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 // **************************************************************
@@ -28,11 +28,13 @@ import Moya
 import HandyJSON
 import Alamofire
 
+/// 网络操作类
 public class NetworkingHandler: RequestCacheProtocol {
     
     // 数据缓存有效时间 默认5分钟
     public static var requestCacheValidTime: Int = 5 * 60
     
+    /// APIProvider
     static let APIProvider = MoyaProvider<APIService>(plugins: [SingleShowState(),
                                                                   SLPrintParameterAndJson()])
     
@@ -76,21 +78,24 @@ public class NetworkingHandler: RequestCacheProtocol {
             
             return Disposables.create()
         }
-//            .debug()
+            //.debug()
             .observeOn(MainScheduler.instance)
             .subscribeOn(ConcurrentDispatchQueueScheduler(qos: .default))
             .filterFailure(nil)
     }
+    
 }
 
 /// 网络检测
-public class SLNetworkStatusManager {
+public class NetworkStatusManager {
     
+    /// 网络状态
     public var networkStatus: NetworkReachabilityManager.NetworkReachabilityStatus = .unknown
     private var manager: NetworkReachabilityManager?
     
-    public static let shared: SLNetworkStatusManager = {
-        let shared = SLNetworkStatusManager()
+    /// 网络请求单例
+    public static let shared: NetworkStatusManager = {
+        let shared = NetworkStatusManager()
         shared.manager = NetworkReachabilityManager(host: "www.baidu.com")
         return shared
     }()
@@ -104,6 +109,7 @@ public class SLNetworkStatusManager {
         manager?.startListening()
     }
     
+    /// 监测网络状态
     func checkNetworkStatus() {
         switch networkStatus {
         case .notReachable:
@@ -116,4 +122,5 @@ public class SLNetworkStatusManager {
             print("当前网络=====> 蜂窝移动网络")
         }
     }
+    
 }

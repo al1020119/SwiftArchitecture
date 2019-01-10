@@ -10,14 +10,14 @@
 // **************************************************************
 //
 //  Single_App
-//  CoreDataManager.swift
+//  CoreDataManager
 //
-//  Created by iCocos on 2018/12/21.
+//  Created by iCocos on 2018/12/25.
 //  Copyright © 2018年 iCocos. All rights reserved.
 //
 // @class CoreDataManager.swift
-// @abstract <#类的描述#>
-// @discussion <#类的功能#>
+// @abstract 请求数据操作
+// @discussion 实现请求数据缓存与数据操作
 //
 //░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 // **************************************************************
@@ -25,15 +25,10 @@
 import UIKit
 import CoreData
 
+/// 数据管理器
 class CoreDataManager {
     
-    /*
-     AppDelegate中添加以下代码
-     
-     func applicationWillTerminate(_ application: UIApplication) {
-     CoreDataManager.shared.saveContext()
-     }
-     */
+    /*AppDelegate中applicationWillTerminate添加以下代码：CoreDataManager.shared.saveContext()*/
     
     /// 创建的表容器文件名称
     public var CoreDataName: String {
@@ -43,6 +38,7 @@ class CoreDataManager {
     /// 托管对象上下文
     var context: NSManagedObjectContext = NSManagedObjectContext(concurrencyType: .mainQueueConcurrencyType)
     
+    /// 单例模型
     static let shared: CoreDataManager = {
         let shared = CoreDataManager()
         if #available(iOS 10.0, *) {
@@ -85,15 +81,14 @@ class CoreDataManager {
         
         /* 例子
          CoreDataManager.shared.save(model: User.self, content: { (user) in
-         user?.id = 1
-         user?.age = 18
-         user?.name = "张三"
+            user?.id = 1
+            user?.age = 18
+            user?.name = "张三"
          }, success: {
-         print("成功")
+            print("成功")
          }) { (error) in
-         print("失败")
-         }
-         */
+            print("失败")
+         } */
     }
     
     /// 查. 改和删可对查询出的数组里的对象进行操作,切记最后一定要保存
@@ -133,23 +128,23 @@ class CoreDataManager {
         
         /* 例子
          CoreDataManager.shared.fetch(table: User.self, fetchRequestContent: { (request) in
-         //request.fetchLimit = 3 //限定查询结果的数量
-         //request.fetchOffset = 1 //查询的偏移量
+             //request.fetchLimit = 3 //限定查询结果的数量
+             //request.fetchOffset = 1 //查询的偏移量
          }, predicate: { () -> NSPredicate in
-         return NSPredicate(format: "id= '1' ", "")
+            return NSPredicate(format: "id= '1' ", "")
          }, success: { (array) in
-         for info in array {
-         //manager.context.delete(info)
-         info.name = "李四"
-         print(info.name)
-         }
-         try? CoreDataManager.shared.context.save()
-         print("成功")
-         }, failure: nil)
-         */
+             for info in array {
+                 //manager.context.delete(info)
+                 info.name = "李四"
+                 print(info.name)
+             }
+             try? CoreDataManager.shared.context.save()
+             print("成功")
+         }, failure: nil) */
     }
     
     /// =======================以下解决CoreData不兼容iOS8和iOS9的问题=====================
+    
     private var applicationDocumentsDirectory: URL {
         return FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
     }
@@ -171,6 +166,7 @@ class CoreDataManager {
         }
         return coordinator
     }
+    
     /// ============================================================================
     
     @available(iOS 10.0, *)
@@ -184,6 +180,7 @@ class CoreDataManager {
         return container
     }
     
+    /// 保存上下文
     func saveContext () {
         if context.hasChanges {
             do {
@@ -194,5 +191,6 @@ class CoreDataManager {
             }
         }
     }
+    
 }
 

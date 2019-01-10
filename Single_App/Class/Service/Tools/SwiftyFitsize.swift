@@ -1,10 +1,26 @@
+//░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+// **************************************************************
+//                  http://www.icocos.cn                       //
+//                 https://icocos.github.io                    //
+//                https://al1020119.github.io                  //
+// **************************************************************
+//  ************  😂🤔 曹理鹏(梦工厂@iCocos) 🤔😂  ************  //
+// **************************************************************
+//░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+// **************************************************************
 //
-//  SwiftyFitsize.swift
+//  Single_App
 //  SwiftyFitsize
 //
-//  Created by LinXunFeng on 2018/10/17.
-//  Copyright © 2018 siyu. All rights reserved.
+//  Created by iCocos on 2019/01/06.
+//  Copyright © 2019年 iCocos. All rights reserved.
 //
+// @class SwiftyFitsize.swift
+// @abstract 大小适配
+// @discussion 实现宽高比例大小适配
+//
+//░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+// **************************************************************
 
 import UIKit
 
@@ -17,8 +33,10 @@ import UIKit
     case force = 2
 }
 
+/// 屏幕宽度
 fileprivate let ScreenW = UIScreen.main.bounds.width
 
+/// 适配大小
 public final class SwiftyFitsize {
     static let shared = SwiftyFitsize()
     private init() { }
@@ -42,6 +60,12 @@ public final class SwiftyFitsize {
             (iPadFitMultiple > 1 || iPadFitMultiple < 0) ? 1 : iPadFitMultiple
     }
     
+    /// 适配字体大小
+    ///
+    /// - Parameters:
+    ///   - value: 大小值
+    ///   - fitType: 适配类型
+    /// - Returns: 适配比例
     fileprivate func fitNumberSize(
         _ value: CGFloat,
         fitType: SwiftyFitType
@@ -56,6 +80,12 @@ public final class SwiftyFitsize {
         }
     }
     
+    /// 适配字体大小
+    ///
+    /// - Parameters:
+    ///   - font: 字体大小
+    ///   - type: 适配类型
+    /// - Returns: 字体对象
     fileprivate func fitFontSize(
         _ font : UIFont,
         type: SwiftyFitType
@@ -79,27 +109,33 @@ postfix operator ~
 public postfix func ~ (value: CGFloat) -> CGFloat {
     return SwiftyFitsize.shared.fitNumberSize(value, fitType: .flexible)
 }
+
 public postfix func ~ (font: UIFont) -> UIFont {
     return UIFont(name: font.fontName, size: font.pointSize~) ?? font
 }
+
 public postfix func ~ (value: Int) -> CGFloat {
     return CGFloat(value)~
 }
+
 public postfix func ~ (value: Float) -> CGFloat {
     return CGFloat(value)~
 }
+
 public postfix func ~ (value: CGPoint) -> CGPoint {
     return CGPoint(
         x: value.x~,
         y: value.y~
     )
 }
+
 public postfix func ~ (value: CGSize) -> CGSize {
     return CGSize(
         width: value.width~,
         height: value.height~
     )
 }
+
 public postfix func ~ (value: CGRect) -> CGRect {
     return CGRect(
         x: value.origin.x~,
@@ -108,6 +144,7 @@ public postfix func ~ (value: CGRect) -> CGRect {
         height: value.size.height~
     )
 }
+
 public postfix func ~ (value: UIEdgeInsets) -> UIEdgeInsets {
     return UIEdgeInsets(
         top: value.top~,
@@ -122,27 +159,33 @@ postfix operator ≈
 public postfix func ≈ (value: CGFloat) -> CGFloat {
     return SwiftyFitsize.shared.fitNumberSize(value, fitType: .force)
 }
+
 public postfix func ≈ (font: UIFont) -> UIFont {
     return UIFont(name: font.fontName, size: font.pointSize≈) ?? font
 }
+
 public postfix func ≈ (value: Int) -> CGFloat {
     return CGFloat(value)≈
 }
+
 public postfix func ≈ (value: Float) -> CGFloat {
     return CGFloat(value)≈
 }
+
 public postfix func ≈ (value: CGPoint) -> CGPoint {
     return CGPoint(
         x: value.x≈,
         y: value.y≈
     )
 }
+
 public postfix func ≈ (value: CGSize) -> CGSize {
     return CGSize(
         width: value.width≈,
         height: value.height≈
     )
 }
+
 public postfix func ≈ (value: CGRect) -> CGRect {
     return CGRect(
         x: value.origin.x≈,
@@ -151,6 +194,7 @@ public postfix func ≈ (value: CGRect) -> CGRect {
         height: value.size.height≈
     )
 }
+
 public postfix func ≈ (value: UIEdgeInsets) -> UIEdgeInsets {
     return UIEdgeInsets(
         top: value.top≈,
@@ -170,6 +214,8 @@ public extension NSLayoutConstraint {
         }
     }
 }
+
+// MARK: - UILabel字体适配
 public extension UILabel {
     @IBInspectable var fontFitType: Int {
         get { return SwiftyFitType.none.rawValue }
@@ -180,6 +226,8 @@ public extension UILabel {
         }
     }
 }
+
+// MARK: - UITextView字体适配
 public extension UITextView {
     @IBInspectable var fontFitType: Int {
         get { return SwiftyFitType.none.rawValue }
@@ -190,6 +238,8 @@ public extension UITextView {
         }
     }
 }
+
+// MARK: - UITextFiled字体适配
 public extension UITextField {
     @IBInspectable var fontFitType: Int {
         get { return SwiftyFitType.none.rawValue }
@@ -200,6 +250,8 @@ public extension UITextField {
         }
     }
 }
+
+// MARK: - UIButton字体适配
 public extension UIButton {
     @IBInspectable var fontFitType: Int {
         get { return SwiftyFitType.none.rawValue }

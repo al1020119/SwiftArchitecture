@@ -16,8 +16,8 @@
 //  Copyright © 2018年 iCocos. All rights reserved.
 //
 // @class NSNumber+Extension.swift
-// @abstract <#类的描述#>
-// @discussion <#类的功能#>
+// @abstract NSNumber拓展
+// @discussion 实现NSNumber分类拓展操作
 //
 //░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 // **************************************************************

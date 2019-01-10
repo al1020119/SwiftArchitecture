@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,19 +10,91 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Single_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="BYZ-38-t0r" customClass="HomeViewController" customModule="Single_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="SKView">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e3a-En-DHf">
+                                <rect key="frame" x="132" y="353" width="150" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.80708018640000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="9fy-7c-Ae4"/>
+                                </constraints>
+                                <state key="normal" title="立绘"/>
+                                <connections>
+                                    <action selector="roleCoverAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Mr-mv-3su"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="obp-VI-gX0">
+                                <rect key="frame" x="132" y="253" width="150" height="50"/>
+                                <color key="backgroundColor" red="0.42352941179999998" green="0.26274509800000001" blue="0.56470588239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="XpK-9C-vh8"/>
+                                </constraints>
+                                <state key="normal" title="TiledMap"/>
+                                <connections>
+                                    <action selector="tiledmapAntion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wOK-KX-nSw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7hw-NB-eCB">
+                                <rect key="frame" x="132" y="453" width="150" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Audio"/>
+                                <connections>
+                                    <action selector="audioAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kh7-73-1UK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ATK-Qn-qXB">
+                                <rect key="frame" x="132" y="153" width="150" height="50"/>
+                                <color key="backgroundColor" red="0.34509803919999998" green="0.78039215689999997" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="TJe-ay-red"/>
+                                </constraints>
+                                <state key="normal" title="JSCore"/>
+                                <connections>
+                                    <action selector="jsCoreAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cMc-Fn-4rX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AkF-Zc-7Gp">
+                                <rect key="frame" x="132" y="553" width="150" height="50"/>
+                                <color key="backgroundColor" red="0.080311380326747894" green="0.77865803241729736" blue="0.40072393417358398" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Phone"/>
+                                <connections>
+                                    <action selector="guideViewAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pWT-85-E68"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="AkF-Zc-7Gp" firstAttribute="height" secondItem="e3a-En-DHf" secondAttribute="height" id="0sf-VO-Y9h"/>
+                            <constraint firstItem="obp-VI-gX0" firstAttribute="top" secondItem="ATK-Qn-qXB" secondAttribute="bottom" constant="50" id="6vP-cD-BGJ"/>
+                            <constraint firstItem="7hw-NB-eCB" firstAttribute="centerX" secondItem="e3a-En-DHf" secondAttribute="centerX" id="7Eh-xZ-CM6"/>
+                            <constraint firstItem="e3a-En-DHf" firstAttribute="width" secondItem="ATK-Qn-qXB" secondAttribute="width" id="L7P-1z-Yrl"/>
+                            <constraint firstItem="obp-VI-gX0" firstAttribute="width" secondItem="ATK-Qn-qXB" secondAttribute="width" id="LXe-tU-MIE"/>
+                            <constraint firstItem="e3a-En-DHf" firstAttribute="top" secondItem="obp-VI-gX0" secondAttribute="bottom" constant="50" id="Qcr-Xx-CCE"/>
+                            <constraint firstItem="ATK-Qn-qXB" firstAttribute="centerX" secondItem="obp-VI-gX0" secondAttribute="centerX" id="ToI-ho-gPr"/>
+                            <constraint firstItem="7hw-NB-eCB" firstAttribute="width" secondItem="ATK-Qn-qXB" secondAttribute="width" id="U6h-XL-hyh"/>
+                            <constraint firstItem="AkF-Zc-7Gp" firstAttribute="width" secondItem="ATK-Qn-qXB" secondAttribute="width" id="UMu-j1-YGz"/>
+                            <constraint firstItem="ATK-Qn-qXB" firstAttribute="height" secondItem="obp-VI-gX0" secondAttribute="height" id="UOu-ie-Oac"/>
+                            <constraint firstItem="obp-VI-gX0" firstAttribute="centerX" secondItem="e3a-En-DHf" secondAttribute="centerX" id="YVY-RQ-j7r"/>
+                            <constraint firstItem="e3a-En-DHf" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ZYW-oJ-1AJ"/>
+                            <constraint firstItem="7hw-NB-eCB" firstAttribute="height" secondItem="e3a-En-DHf" secondAttribute="height" id="Zjh-bj-1Q4"/>
+                            <constraint firstItem="e3a-En-DHf" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="bPw-Hb-b3C"/>
+                            <constraint firstItem="AkF-Zc-7Gp" firstAttribute="top" secondItem="7hw-NB-eCB" secondAttribute="bottom" constant="50" id="pI4-v2-Mqf"/>
+                            <constraint firstItem="AkF-Zc-7Gp" firstAttribute="centerX" secondItem="e3a-En-DHf" secondAttribute="centerX" id="yq7-O3-6RS"/>
+                            <constraint firstItem="7hw-NB-eCB" firstAttribute="top" secondItem="e3a-En-DHf" secondAttribute="bottom" constant="50" id="zAq-zJ-cVa"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="kfN-Aq-rxX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1044.9275362318842" y="134.5108695652174"/>
         </scene>
     </scenes>
 </document>

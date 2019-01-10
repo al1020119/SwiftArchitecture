@@ -10,14 +10,14 @@
 // **************************************************************
 //
 //  Single_App
-//  MoyaPlugin.swift
+//  MoyaPlugin
 //
-//  Created by iCocos on 2018/12/21.
+//  Created by iCocos on 2018/12/25.
 //  Copyright © 2018年 iCocos. All rights reserved.
 //
 // @class MoyaPlugin.swift
-// @abstract <#类的描述#>
-// @discussion <#类的功能#>
+// @abstract Moya拓展支持
+// @discussion 提供请求Moya操作与服务
 //
 //░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 // **************************************************************
@@ -26,7 +26,6 @@ import Foundation
 import Moya
 import SwiftyJSON
 import Result
-//import SVProgressHUD
 
 /// Moya插件: 网络请求时显示loading...
 internal final class SingleShowState: PluginType {
@@ -53,12 +52,18 @@ internal final class SingleShowState: PluginType {
     }
     
     /// 调用以在完成之前修改结果
-//    func process(_ result: Result<Response, MoyaError>, target: TargetType) -> Result<Response, MoyaError> {}
+    //func process(_ result: Result<Response, MoyaError>, target: TargetType) -> Result<Response, MoyaError> {}
+    
 }
 
 /// Moya插件: 控制台打印请求的参数和服务器返回的json数据
 internal final class SLPrintParameterAndJson: PluginType {
     
+    /// 发生请求
+    ///
+    /// - Parameters:
+    ///   - request: 请求类型
+    ///   - target: 目标类型
     func willSend(_ request: RequestType, target: TargetType) {
         #if DEBUG
         print("""
@@ -69,6 +74,11 @@ internal final class SLPrintParameterAndJson: PluginType {
         #endif
     }
     
+    /// 接受数据
+    ///
+    /// - Parameters:
+    ///   - result: 结果
+    ///   - target: 目标类型
     func didReceive(_ result: Result<Response, MoyaError>, target: TargetType) {
         
         #if DEBUG
@@ -101,4 +111,5 @@ internal final class SLPrintParameterAndJson: PluginType {
         }
         #endif
     }
+    
 }

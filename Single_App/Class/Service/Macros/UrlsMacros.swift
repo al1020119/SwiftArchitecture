@@ -12,12 +12,12 @@
 //  Single_App
 //  UrlsMacros.swift
 //
-//  Created by iCocos on 2018/12/21.
+//  Created by iCocos on 2018/12/23.
 //  Copyright © 2018年 iCocos. All rights reserved.
 //
 // @class UrlsMacros.swift
-// @abstract <#类的描述#>
-// @discussion <#类的功能#>
+// @abstract Url宏
+// @discussion 实现基本的工具宏操作与服务
 //
 //░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 // **************************************************************
@@ -50,6 +50,4 @@ let kGET_SUBJECTINFO_URL           = kAPI_URL + "/subject/getSubject"
 /// 获取话题下Topic的地址
 let kGET_LISTSUBJECTTOPIC_URL      = kAPI_URL + "/subject/listSubjectTopic"
 /// 访客记录的地址
-let kVISITOR_RECORD_URL            = kAPI_URL + "/user/listVisitUser"// 版权属于原作者
-// http://code4app.com (cn) http://code4app.net (en)
-// 发布代码于最专业的源码分享网站: Code4App.com
+let kVISITOR_RECORD_URL            = kAPI_URL + "/user/listVisitUser"

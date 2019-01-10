@@ -10,16 +10,21 @@
 // **************************************************************
 //
 //  Single_App
-//  AppDelegate+Extension.swift
+//  AppDelegate+Extension
 //
-//  Created by iCocos on 2018/12/21.
-//  Copyright © 2018年 iCocos. All rights reserved.
+//  Created by iCocos on 2019/01/03.
+//  Copyright © 2019年 iCocos. All rights reserved.
 //
 // @class AppDelegate+Extension.swift
-// @abstract <#类的描述#>
-// @discussion <#类的功能#>
+// @abstract App拓展分类
+// @discussion AppDelegate代理方法拓展，轻量化
 //
 //░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 // **************************************************************
 
 import Foundation
+
+// MARK: - 全局代理
+extension AppDelegate {
+
+}

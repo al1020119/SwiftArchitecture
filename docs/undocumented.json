@@ -1,551 +1,3288 @@
 {
   "warnings": [
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/API/SingleAPI.swift",
-      "line": 36,
-      "symbol": "NetworkResponse.init()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/API/SingleAPI.swift",
-      "line": 39,
-      "symbol": "NetworkResponse.init(code:message:data:error:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/API/SingleAPI.swift",
-      "line": 49,
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/API/API.swift",
+      "line": 58,
       "symbol": "HttpStatus.success",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/API/SingleAPI.swift",
-      "line": 50,
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/API/API.swift",
+      "line": 59,
       "symbol": "HttpStatus.logout",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/API/SingleAPI.swift",
-      "line": 51,
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/API/API.swift",
+      "line": 60,
       "symbol": "HttpStatus.requestFailed",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/API/SingleAPI.swift",
-      "line": 52,
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/API/API.swift",
+      "line": 61,
       "symbol": "HttpStatus.noDataOrDataParsingFailed",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/API/SingleAPIService.swift",
-      "line": null,
-      "symbol": "SingleAPIService",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/API/SingleAPIService.swift",
-      "line": 28,
-      "symbol": "SingleAPIService",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/API/SingleAPIService.swift",
-      "line": 29,
-      "symbol": "SingleAPIService.loadCarBrand",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/API/SingleAPIService.swift",
-      "line": 33,
-      "symbol": "SingleAPIService.baseURL",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/API/SingleAPIService.swift",
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/API/APIError.swift",
       "line": 37,
-      "symbol": "SingleAPIService.path",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/API/SingleAPIService.swift",
-      "line": 44,
-      "symbol": "SingleAPIService.method",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/API/SingleAPIService.swift",
-      "line": 53,
-      "symbol": "SingleAPIService.task",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/API/SingleAPIService.swift",
-      "line": 58,
-      "symbol": "SingleAPIService.headers",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/API/SingleError.swift",
-      "line": null,
-      "symbol": "SingleError",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/API/SingleError.swift",
-      "line": 27,
-      "symbol": "SingleError",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/API/SingleError.swift",
-      "line": 28,
-      "symbol": "SingleError.SingleRequestFailed(error:)",
+      "symbol": "APIError.SingleRequestFailed(error:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/API/SingleError.swift",
-      "line": 29,
-      "symbol": "SingleError.SingleNoDataOrDataParsingFailed(error:)",
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/API/APIError.swift",
+      "line": 38,
+      "symbol": "APIError.SingleNoDataOrDataParsingFailed(error:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/API/SingleError.swift",
-      "line": 30,
-      "symbol": "SingleError.SingleOperationFailure(resultCode:resultMsg:)",
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/API/APIError.swift",
+      "line": 39,
+      "symbol": "APIError.SingleOperationFailure(resultCode:resultMsg:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/API/SingleError.swift",
-      "line": 31,
-      "symbol": "SingleError.SingleLogout",
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/API/APIError.swift",
+      "line": 40,
+      "symbol": "APIError.SingleLogout",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/API/SingleError.swift",
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/API/APIError.swift",
+      "line": 41,
+      "symbol": "APIError.SingleFailed(error:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/API/APIError.swift",
+      "line": 42,
+      "symbol": "APIError.SingleFailedNormal(error:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/API/APIService.swift",
       "line": 32,
-      "symbol": "SingleError.SingleFailed(error:)",
+      "symbol": "APIService.loadCarBrand",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/API/SingleError.swift",
-      "line": 33,
-      "symbol": "SingleError.SingleFailedNormal(error:)",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/API/NetworkingHandler.swift",
+      "line": 35,
+      "symbol": "NetworkingHandler.requestCacheValidTime",
+      "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/API/SingleNetworkingHandler.swift",
-      "line": 31,
-      "symbol": "SingleNetworkingHandler",
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/Badge.swift",
+      "line": 12,
+      "symbol": "Badge",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/API/SingleNetworkingHandler.swift",
-      "line": 34,
-      "symbol": "SingleNetworkingHandler.requestCacheValidTime",
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/Badge.swift",
+      "line": 18,
+      "symbol": "Badge.BadgeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/Badge.swift",
+      "line": 19,
+      "symbol": "Badge.BadgeType.redDot",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/Badge.swift",
+      "line": 20,
+      "symbol": "Badge.BadgeType.number(with:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/Badge.swift",
+      "line": 23,
+      "symbol": "Badge.default",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/API/SingleNetworkingHandler.swift",
-      "line": 89,
-      "symbol": "SLNetworkStatusManager.networkStatus",
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/Badge.swift",
+      "line": 26,
+      "symbol": "Badge.backgroundColor",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/API/SingleNetworkingHandler.swift",
-      "line": 92,
-      "symbol": "SLNetworkStatusManager.shared",
-      "symbol_kind": "source.lang.swift.decl.var.static",
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/Badge.swift",
+      "line": 27,
+      "symbol": "Badge.textColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/API/SingleObservableExtension.swift",
-      "line": 32,
-      "symbol": "NR",
-      "symbol_kind": "source.lang.swift.decl.typealias",
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/Badge.swift",
+      "line": 28,
+      "symbol": "Badge.redDotWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/API/SingleObservableExtension.swift",
-      "line": 36,
-      "symbol": "Observable.Complete",
-      "symbol_kind": "source.lang.swift.decl.typealias",
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/Badge.swift",
+      "line": 29,
+      "symbol": "Badge.font",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/API/SingleObservableExtension.swift",
-      "line": 287,
-      "symbol": "Observable.bindToSelector(sel:)",
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/Badge.swift",
+      "line": 30,
+      "symbol": "Badge.maximumNumber",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UIBarButtonItem+Badge.swift",
+      "line": 15,
+      "symbol": "UIBarButtonItem.single_badgeBackgroundColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UIBarButtonItem+Badge.swift",
+      "line": 24,
+      "symbol": "UIBarButtonItem.single_badgeTextColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UIBarButtonItem+Badge.swift",
+      "line": 34,
+      "symbol": "UIBarButtonItem.single_badgeRedDotWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UIBarButtonItem+Badge.swift",
+      "line": 43,
+      "symbol": "UIBarButtonItem.single_badge",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UIBarButtonItem+Badge.swift",
+      "line": 52,
+      "symbol": "UIBarButtonItem.single_badgeCenterOffset",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UIBarButtonItem+Badge.swift",
+      "line": 61,
+      "symbol": "UIBarButtonItem.single_badgeFont",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UIBarButtonItem+Badge.swift",
+      "line": 71,
+      "symbol": "UIBarButtonItem.single_badgeMaximumNumber",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UIBarButtonItem+Badge.swift",
+      "line": 81,
+      "symbol": "UIBarButtonItem.single_badgeText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UIBarButtonItem+Badge.swift",
+      "line": 90,
+      "symbol": "UIBarButtonItem.single_showBadge(with:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Extension/Foundation/NotificationName+Extension.swift",
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UIBarButtonItem+Badge.swift",
+      "line": 94,
+      "symbol": "UIBarButtonItem.single_clearBadge()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UIBarButtonItem+Badge.swift",
+      "line": 98,
+      "symbol": "UIBarButtonItem.single_resumeBadge()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UIBarButtonItem+Badge.swift",
+      "line": 102,
+      "symbol": "UIBarButtonItem.single_showRedDot(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UITabBarItem+Badge.swift",
+      "line": 16,
+      "symbol": "UITabBarItem.single_badgeBackgroundColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UITabBarItem+Badge.swift",
+      "line": 25,
+      "symbol": "UITabBarItem.single_badgeTextColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UITabBarItem+Badge.swift",
+      "line": 35,
+      "symbol": "UITabBarItem.single_badgeRedDotWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UITabBarItem+Badge.swift",
+      "line": 44,
+      "symbol": "UITabBarItem.single_badge",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UITabBarItem+Badge.swift",
+      "line": 53,
+      "symbol": "UITabBarItem.single_badgeCenterOffset",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UITabBarItem+Badge.swift",
+      "line": 62,
+      "symbol": "UITabBarItem.single_badgeFont",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UITabBarItem+Badge.swift",
+      "line": 72,
+      "symbol": "UITabBarItem.single_badgeMaximumNumber",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UITabBarItem+Badge.swift",
+      "line": 82,
+      "symbol": "UITabBarItem.single_badgeText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UITabBarItem+Badge.swift",
+      "line": 91,
+      "symbol": "UITabBarItem.single_showBadge(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UITabBarItem+Badge.swift",
+      "line": 95,
+      "symbol": "UITabBarItem.single_clearBadge()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UITabBarItem+Badge.swift",
+      "line": 99,
+      "symbol": "UITabBarItem.single_resumeBadge()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UITabBarItem+Badge.swift",
+      "line": 103,
+      "symbol": "UITabBarItem.single_showRedDot(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UIView+Badge.swift",
+      "line": 22,
+      "symbol": "UIView.single_badgeBackgroundColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UIView+Badge.swift",
+      "line": 35,
+      "symbol": "UIView.single_badgeTextColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UIView+Badge.swift",
+      "line": 48,
+      "symbol": "UIView.single_badgeRedDotWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UIView+Badge.swift",
+      "line": 57,
+      "symbol": "UIView.single_badge",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UIView+Badge.swift",
+      "line": 66,
+      "symbol": "UIView.single_badgeCenterOffset",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UIView+Badge.swift",
+      "line": 83,
+      "symbol": "UIView.single_badgeFont",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UIView+Badge.swift",
+      "line": 97,
+      "symbol": "UIView.single_badgeMaximumNumber",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UIView+Badge.swift",
+      "line": 107,
+      "symbol": "UIView.single_badgeText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UIView+Badge.swift",
+      "line": 126,
+      "symbol": "UIView.single_showBadge(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UIView+Badge.swift",
+      "line": 135,
+      "symbol": "UIView.single_clearBadge()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UIView+Badge.swift",
+      "line": 140,
+      "symbol": "UIView.single_resumeBadge()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Badge/UIView+Badge.swift",
+      "line": 146,
+      "symbol": "UIView.single_showRedDot(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Controls/SafeButton.swift",
+      "line": 35,
+      "symbol": "UIButton.startForbidContinuousClick()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Custom/Controls/SafeButton.swift",
+      "line": 98,
+      "symbol": "DispatchQueue.once(token:block:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Module/Print/TextPrintControl.swift",
+      "line": 44,
+      "symbol": "TextPrintControl.charInterval",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Module/Print/TextPrintControl.swift",
+      "line": 49,
+      "symbol": "TextPrintControl.onTypingAnimationFinished",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Module/Print/TextPrintControl.swift",
+      "line": 54,
+      "symbol": "TextPrintControl.centerText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Module/Print/TextPrintControl.swift",
+      "line": 65,
+      "symbol": "TextPrintControl.text",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Module/Print/TextPrintControl.swift",
+      "line": 86,
+      "symbol": "TextPrintControl.attributedText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Module/Print/TextPrintControl.swift",
+      "line": 106,
+      "symbol": "TextPrintControl.pauseTyping()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Module/Print/TextPrintControl.swift",
+      "line": 114,
+      "symbol": "TextPrintControl.continueTyping()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Module/Tables/ProfileModel.swift",
+      "line": 19,
+      "symbol": "dataFromFile(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/BaseModel.swift",
+      "line": null,
+      "symbol": "BaseModel",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/BaseModel.swift",
+      "line": 30,
+      "symbol": "BaseModel",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Codeable.swift",
+      "line": null,
+      "symbol": "Codeable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Codeable.swift",
+      "line": null,
+      "symbol": "Codeable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Codeable.swift",
+      "line": null,
+      "symbol": "Codeable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Codeable.swift",
+      "line": null,
+      "symbol": "Codeable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Codeable.swift",
+      "line": null,
+      "symbol": "Codeable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Codeable.swift",
+      "line": null,
+      "symbol": "Codeable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Codeable.swift",
+      "line": null,
+      "symbol": "CodeableCompatible",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Codeable.swift",
+      "line": 29,
+      "symbol": "Codeable",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Codeable.swift",
+      "line": 30,
+      "symbol": "Codeable.base",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Codeable.swift",
+      "line": 31,
+      "symbol": "Codeable.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Codeable.swift",
+      "line": 37,
+      "symbol": "CodeableCompatible",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Codeable.swift",
+      "line": 38,
+      "symbol": "CodeableCompatible.ExtendType",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Codeable.swift",
+      "line": 39,
+      "symbol": "CodeableCompatible.codeable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Codeable.swift",
+      "line": 44,
+      "symbol": "CodeableCompatible.codeable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Codeable.swift",
+      "line": 83,
+      "symbol": "WeakReference",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Codeable.swift",
+      "line": 84,
+      "symbol": "WeakReference.object",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Codeable.swift",
+      "line": 85,
+      "symbol": "WeakReference.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Codeable.swift",
+      "line": 92,
+      "symbol": "Codeable.getWeakObject(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Codeable.swift",
+      "line": 96,
+      "symbol": "Codeable.setWeakObject(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Codeable.swift",
+      "line": 104,
+      "symbol": "Codeable.getStrongObject(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Codeable.swift",
+      "line": 108,
+      "symbol": "Codeable.setStrongObject(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Codeable.swift",
+      "line": 112,
+      "symbol": "Codeable.getAssignObject(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Codeable.swift",
+      "line": 116,
+      "symbol": "Codeable.setAssignObject(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Color.swift",
+      "line": 32,
+      "symbol": "Codeable.toColor(alpha:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Date.swift",
+      "line": 31,
+      "symbol": "DateFormatter.codeable",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Date.swift",
+      "line": 33,
+      "symbol": "DateFormatter.codeable.formatter(_:locale:timeZone:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Date.swift",
+      "line": 53,
+      "symbol": "Codeable.description(format:locale:timeZone:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Date.swift",
+      "line": 60,
+      "symbol": "Codeable.date(_:locale:timeZone:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Image.swift",
+      "line": 31,
+      "symbol": "UIImage.codeable",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Image.swift",
+      "line": 33,
+      "symbol": "UIImage.codeable.gradientImage(gradientColors:size:start:end:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Integer.swift",
+      "line": 35,
+      "symbol": "Int.randomIntNumber(lower:upper:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Logger.swift",
+      "line": 29,
+      "symbol": "Logger",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Logger.swift",
+      "line": 31,
+      "symbol": "Logger.Level",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Logger.swift",
+      "line": 32,
+      "symbol": "Logger.Level.info",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Logger.swift",
+      "line": 33,
+      "symbol": "Logger.Level.debug",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Logger.swift",
+      "line": 34,
+      "symbol": "Logger.Level.error",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Logger.swift",
+      "line": 35,
+      "symbol": "Logger.Level.none",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Logger.swift",
+      "line": 38,
+      "symbol": "Logger.level",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Logger.swift",
+      "line": 49,
+      "symbol": "Logger.info(_:separator:terminator:file:method:line:column:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Logger.swift",
+      "line": 53,
+      "symbol": "Logger.debug(_:separator:terminator:file:method:line:column:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Logger.swift",
+      "line": 57,
+      "symbol": "Logger.error(_:separator:terminator:file:method:line:column:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Logger.swift",
+      "line": 61,
+      "symbol": "Logger.log(_:separator:terminator:file:method:line:column:level:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/String.swift",
+      "line": 32,
+      "symbol": "Codeable.range(from:to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/String.swift",
+      "line": 40,
+      "symbol": "Codeable.substring(from:to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/String.swift",
+      "line": 48,
+      "symbol": "Codeable.substring(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/String.swift",
+      "line": 55,
+      "symbol": "Codeable.substring(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/String.swift",
+      "line": 62,
+      "symbol": "Codeable.emptyOrString(str:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/String.swift",
+      "line": 71,
+      "symbol": "Codeable.md5String()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/String.swift",
+      "line": 89,
+      "symbol": "Codeable.isBlank(str:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/String.swift",
+      "line": 104,
+      "symbol": "Codeable.isPhoneNumber()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/String.swift",
+      "line": 117,
+      "symbol": "Codeable.objectFromJSONString()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/String.swift",
+      "line": 126,
+      "symbol": "Codeable.urlEncodedString()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Timer.swift",
+      "line": 31,
+      "symbol": "Timer.codeable",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Timer.swift",
+      "line": 32,
+      "symbol": "Timer.codeable.sheduledTimer(withTimeInterval:repeats:block:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Timer.swift",
+      "line": 41,
+      "symbol": "Timer.codeable.timer(withTimeInterval:repeats:block:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Timer.swift",
+      "line": 61,
+      "symbol": "Codeable.start()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Timer.swift",
+      "line": 65,
+      "symbol": "Codeable.start(afterTimeInterval:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Codeable/Timer.swift",
+      "line": 69,
+      "symbol": "Codeable.pause()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Extension/Foundation/NotificationName+Extension.swift",
       "line": 28,
       "symbol": "Notification.Name.SingleLocation",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Extension/Foundation/NotificationName+Extension.swift",
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Extension/Foundation/NotificationName+Extension.swift",
       "line": 29,
       "symbol": "Notification.Name.SingleLocation.disable",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Extension/Foundation/String+Extension.swift",
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Extension/Foundation/String+Extension.swift",
       "line": 28,
       "symbol": "String.substring(from:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Extension/UIKit/Controller+Extension.swift",
-      "line": 14,
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Extension/UIKit/Controller+Extension.swift",
+      "line": 30,
       "symbol": "UIViewController.handleActions()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Extension/UIKit/Controller+Extension.swift",
-      "line": 19,
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Extension/UIKit/Controller+Extension.swift",
+      "line": 35,
       "symbol": "UIViewController.setupUI()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Extension/UIKit/UIDevice+Extension.swift",
-      "line": 74,
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Extension/UIKit/UIDevice+Extension.swift",
+      "line": 90,
       "symbol": "UIDevice.appVersionAndBuild",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Extension/UIKit/UIImageView+Extension.swift",
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Extension/UIKit/UIImageView+Extension.swift",
       "line": 36,
       "symbol": "UIImageView.debugFaceAware",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Extension/UIKit/UIImageView+Extension.swift",
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Extension/UIKit/UIImageView+Extension.swift",
       "line": 49,
       "symbol": "UIImageView.focusOnFaces",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Extension/UIKit/UIImageView+Extension.swift",
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Extension/UIKit/UIImageView+Extension.swift",
       "line": 59,
       "symbol": "UIImageView.set(image:focusOnFaces:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Extension/UIKit/UIWindow+Extension.swift",
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Extension/UIKit/UIWindow+Extension.swift",
       "line": 28,
       "symbol": "UIWindow.currentViewController()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Extension/UIKit/View+Extension.swift",
-      "line": 14,
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Extension/UIKit/View+Extension.swift",
+      "line": 30,
       "symbol": "UIView.handleActions()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Extension/UIKit/View+Extension.swift",
-      "line": 19,
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Extension/UIKit/View+Extension.swift",
+      "line": 35,
       "symbol": "UIView.setupUI()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Extension/UIKit/View+Extension.swift",
-      "line": 24,
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Extension/UIKit/View+Extension.swift",
+      "line": 40,
       "symbol": "UIView.viewController()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Macros/SwiftMacro.swift",
-      "line": 28,
-      "symbol": "ClassFromString(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.free",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/SingleLog.swift",
-      "line": 41,
-      "symbol": "KitLog(_:fileName:methodName:lineNumber:)",
-      "symbol_kind": "source.lang.swift.decl.function.free",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/SinglePch.swift",
-      "line": 53,
-      "symbol": "FCDocumentPath",
-      "symbol_kind": "source.lang.swift.decl.var.global",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/SinglePch.swift",
-      "line": 58,
-      "symbol": "FCNotificationDefault",
-      "symbol_kind": "source.lang.swift.decl.var.global",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/SinglePch.swift",
-      "line": 60,
-      "symbol": "FCuserId",
-      "symbol_kind": "source.lang.swift.decl.var.global",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/SinglePch.swift",
-      "line": 62,
-      "symbol": "FCtoken",
-      "symbol_kind": "source.lang.swift.decl.var.global",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/SinglePch.swift",
-      "line": 64,
-      "symbol": "FCweChatAppID",
-      "symbol_kind": "source.lang.swift.decl.var.global",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Tools/SingleThen.swift",
-      "line": null,
-      "symbol": "Then",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Tools/SingleThen.swift",
-      "line": null,
-      "symbol": "Then",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Tools/SingleThen.swift",
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Router/RouterService/RouterService.swift",
       "line": 27,
-      "symbol": "Then",
-      "symbol_kind": "source.lang.swift.decl.protocol",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Tools/SingleThen.swift",
-      "line": 30,
-      "symbol": "Then.then_Any(block:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Tools/SingleThen.swift",
-      "line": 49,
-      "symbol": "Then.then(block:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Tools/SingleTool.swift",
-      "line": 29,
-      "symbol": "Tool",
+      "symbol": "RouterUtilsService",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
-      "line": 11,
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Router/RouterService/RouterService.swift",
+      "line": 29,
+      "symbol": "RouterUtilsService.currentTopViewController()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Router/RouterService/RouterService.swift",
+      "line": 37,
+      "symbol": "RouterUtilsService.currentTopViewController(rootViewController:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Router/RouterService/RouterService.swift",
+      "line": 53,
+      "symbol": "RouterPathableService",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Router/RouterService/RouterService.swift",
+      "line": 54,
+      "symbol": "RouterPathableService.any",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Router/RouterService/RouterService.swift",
+      "line": 55,
+      "symbol": "RouterPathableService.params",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Router/RouterService/RouterService.swift",
+      "line": 58,
+      "symbol": "RouterServiceParameter",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Router/RouterService/RouterService.swift",
+      "line": 59,
+      "symbol": "Routable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Router/RouterService/RouterService.swift",
+      "line": 68,
+      "symbol": "RouterService",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Router/RouterService/RouterService.swift",
+      "line": 70,
+      "symbol": "RouterService.openTel(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Router/RouterService/RouterService.swift",
+      "line": 76,
+      "symbol": "RouterService.open(_:present:animated:presentComplete:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
+      "line": 27,
       "symbol": "SwiftyFitType",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
-      "line": 22,
-      "symbol": "SwiftyFitsize",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
-      "line": 79,
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
+      "line": 109,
       "symbol": "~(_:)",
       "symbol_kind": "source.lang.swift.decl.function.free",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
-      "line": 82,
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
+      "line": 113,
       "symbol": "~(_:)",
       "symbol_kind": "source.lang.swift.decl.function.free",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
-      "line": 85,
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
+      "line": 117,
       "symbol": "~(_:)",
       "symbol_kind": "source.lang.swift.decl.function.free",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
-      "line": 88,
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
+      "line": 121,
       "symbol": "~(_:)",
       "symbol_kind": "source.lang.swift.decl.function.free",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
-      "line": 91,
-      "symbol": "~(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.free",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
-      "line": 97,
-      "symbol": "~(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.free",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
-      "line": 103,
-      "symbol": "~(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.free",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
-      "line": 111,
-      "symbol": "~(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.free",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
-      "line": 122,
-      "symbol": "≈(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.free",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
       "line": 125,
+      "symbol": "~(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
+      "line": 132,
+      "symbol": "~(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
+      "line": 139,
+      "symbol": "~(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
+      "line": 148,
+      "symbol": "~(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
+      "line": 159,
       "symbol": "≈(_:)",
       "symbol_kind": "source.lang.swift.decl.function.free",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
-      "line": 128,
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
+      "line": 163,
       "symbol": "≈(_:)",
       "symbol_kind": "source.lang.swift.decl.function.free",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
-      "line": 131,
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
+      "line": 167,
       "symbol": "≈(_:)",
       "symbol_kind": "source.lang.swift.decl.function.free",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
-      "line": 134,
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
+      "line": 171,
       "symbol": "≈(_:)",
       "symbol_kind": "source.lang.swift.decl.function.free",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
-      "line": 140,
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
+      "line": 175,
       "symbol": "≈(_:)",
       "symbol_kind": "source.lang.swift.decl.function.free",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
-      "line": 146,
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
+      "line": 182,
       "symbol": "≈(_:)",
       "symbol_kind": "source.lang.swift.decl.function.free",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
-      "line": 154,
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
+      "line": 189,
       "symbol": "≈(_:)",
       "symbol_kind": "source.lang.swift.decl.function.free",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
-      "line": 165,
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
+      "line": 198,
+      "symbol": "≈(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
+      "line": 209,
       "symbol": "NSLayoutConstraint.swiftyFitType",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
-      "line": 174,
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
+      "line": 220,
       "symbol": "UILabel.fontFitType",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
-      "line": 184,
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
+      "line": 232,
       "symbol": "UITextView.fontFitType",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
-      "line": 194,
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
+      "line": 244,
       "symbol": "UITextField.fontFitType",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
-      "line": 204,
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Class/Service/Tools/SwiftyFitsize.swift",
+      "line": 256,
       "symbol": "UIButton.fontFitType",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppBuild/AppToast.swift",
+      "line": 28,
+      "symbol": "AppToast",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppBuild/AppToast.swift",
+      "line": 29,
+      "symbol": "AppToast.shared",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppBuild/AppToast.swift",
+      "line": 63,
+      "symbol": "AppToast.toast(message:image:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppBuild/MainScreen.swift",
+      "line": 27,
+      "symbol": "MainScreen",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppCommons/MethodInfo.swift",
+      "line": 27,
+      "symbol": "MethodInfo",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppCommons/UIConstant.swift",
+      "line": 28,
+      "symbol": "is_iPhoneX",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppTools.swift",
+      "line": null,
+      "symbol": "AppTools",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppTools.swift",
+      "line": null,
+      "symbol": "AppTools",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppTools.swift",
+      "line": null,
+      "symbol": "AppTools",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppTools.swift",
+      "line": null,
+      "symbol": "AppTools",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppTools.swift",
+      "line": null,
+      "symbol": "AppTools",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppTools.swift",
+      "line": null,
+      "symbol": "AppTools",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppTools.swift",
+      "line": null,
+      "symbol": "AppTools",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppTools.swift",
+      "line": null,
+      "symbol": "AppTools",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppTools.swift",
+      "line": null,
+      "symbol": "AppTools",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppTools.swift",
+      "line": null,
+      "symbol": "AppTools",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppTools.swift",
+      "line": null,
+      "symbol": "AppTools",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppTools.swift",
+      "line": null,
+      "symbol": "AppTools",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppTools.swift",
+      "line": null,
+      "symbol": "AppTools",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppTools.swift",
+      "line": null,
+      "symbol": "AppTools",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppTools.swift",
+      "line": null,
+      "symbol": "AppTools",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppTools.swift",
+      "line": null,
+      "symbol": "AppTools",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppTools.swift",
+      "line": null,
+      "symbol": "AppToolsCompatible",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppTools.swift",
+      "line": 27,
+      "symbol": "AppTools",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppTools.swift",
+      "line": 28,
+      "symbol": "AppTools.base",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppTools.swift",
+      "line": 30,
+      "symbol": "AppTools.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppTools.swift",
+      "line": 35,
+      "symbol": "AppToolsCompatible",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppTools.swift",
+      "line": 36,
+      "symbol": "AppToolsCompatible.RATCompatibleType",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppTools.swift",
+      "line": 37,
+      "symbol": "AppToolsCompatible.rat",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppTools.swift",
+      "line": 38,
+      "symbol": "AppToolsCompatible.rat",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppTools.swift",
+      "line": 42,
+      "symbol": "AppToolsCompatible.rat",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/AppTools.swift",
+      "line": 46,
+      "symbol": "AppToolsCompatible.rat",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/Basic/Double+AppTools.swift",
+      "line": 28,
+      "symbol": "Double.rat",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/Basic/Double+AppTools.swift",
+      "line": 33,
+      "symbol": "DoubleExtension",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/Basic/Int+AppTools.swift",
+      "line": 28,
+      "symbol": "Int.rat",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/Basic/Int+AppTools.swift",
+      "line": 33,
+      "symbol": "IntExtension",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/Basic/String+AppTools.swift",
+      "line": 28,
+      "symbol": "String.rat",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/Basic/String+AppTools.swift",
+      "line": 32,
+      "symbol": "String.rat",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/Basic/String+AppTools.swift",
+      "line": 149,
+      "symbol": "StringExtension",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/Cocoa/Date+AppTools.swift",
+      "line": 28,
+      "symbol": "Date.rat",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/Cocoa/Date+AppTools.swift",
+      "line": 32,
+      "symbol": "Date.rat",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/Cocoa/Date+AppTools.swift",
+      "line": 37,
+      "symbol": "DateExtension",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/Cocoa/UserDefaults+AppTools.swift",
+      "line": 27,
+      "symbol": "Key",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/Cocoa/UserDefaults+AppTools.swift",
+      "line": 29,
+      "symbol": "Key.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 29,
+      "symbol": "SingleDeviceType.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 31,
+      "symbol": "SingleDeviceType.iPhone_2G",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 32,
+      "symbol": "SingleDeviceType.iPhone_3G",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 33,
+      "symbol": "SingleDeviceType.iPhone_3GS",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 34,
+      "symbol": "SingleDeviceType.iPhone_4",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 35,
+      "symbol": "SingleDeviceType.iPhone_4S",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 36,
+      "symbol": "SingleDeviceType.iPhone_5",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 37,
+      "symbol": "SingleDeviceType.iPhone_5c",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 38,
+      "symbol": "SingleDeviceType.iPhone_5s",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 39,
+      "symbol": "SingleDeviceType.iPhone_6_Plus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 40,
+      "symbol": "SingleDeviceType.iPhone_6",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 41,
+      "symbol": "SingleDeviceType.iPhone_6s",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 42,
+      "symbol": "SingleDeviceType.iPhone_6s_Plus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 43,
+      "symbol": "SingleDeviceType.iPhone_SE",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 44,
+      "symbol": "SingleDeviceType.iPhone_7",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 45,
+      "symbol": "SingleDeviceType.iPhone_7_Plus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 46,
+      "symbol": "SingleDeviceType.iPhone_8",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 47,
+      "symbol": "SingleDeviceType.iPhone_8_Plus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 48,
+      "symbol": "SingleDeviceType.iPhone_X",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 50,
+      "symbol": "SingleDeviceType.iPod_Touch_1",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 51,
+      "symbol": "SingleDeviceType.iPod_Touch_2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 52,
+      "symbol": "SingleDeviceType.iPod_Touch_3",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 53,
+      "symbol": "SingleDeviceType.iPod_Touch_4",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 54,
+      "symbol": "SingleDeviceType.iPod_Touch_5",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 56,
+      "symbol": "SingleDeviceType.iPad_1",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 57,
+      "symbol": "SingleDeviceType.iPad_2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 58,
+      "symbol": "SingleDeviceType.iPad_3",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 59,
+      "symbol": "SingleDeviceType.iPad_4",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 60,
+      "symbol": "SingleDeviceType.iPad_Mini",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 61,
+      "symbol": "SingleDeviceType.iPad_Air",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 62,
+      "symbol": "SingleDeviceType.iPad_Mini_2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 63,
+      "symbol": "SingleDeviceType.iPad_Air_2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 64,
+      "symbol": "SingleDeviceType.iPad_Mini_3",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 65,
+      "symbol": "SingleDeviceType.iPad_Mini_4",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 66,
+      "symbol": "SingleDeviceType.iPad_Pro_97",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 67,
+      "symbol": "SingleDeviceType.iPad_Pro_129",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 69,
+      "symbol": "SingleDeviceType.Apple_TV",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 71,
+      "symbol": "SingleDeviceType.simulator_32bit",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIDevice+AppTools.swift",
+      "line": 72,
+      "symbol": "SingleDeviceType.simulator_64bit",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIView+AppTools.swift",
+      "line": 27,
+      "symbol": "RGLineDirection",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIView+AppTools.swift",
+      "line": 28,
+      "symbol": "RGLineDirection.horizontal",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIView+AppTools.swift",
+      "line": 29,
+      "symbol": "RGLineDirection.vertical",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIView+AppTools.swift",
+      "line": 101,
+      "symbol": "UIViewFrameExtension",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Extensions/UIKit/UIView+AppTools.swift",
+      "line": 220,
+      "symbol": "UIView.rat",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Protocols/TopLayoutProtocols.swift",
+      "line": null,
+      "symbol": "TopView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/AppTools/Protocols/TopLayoutProtocols.swift",
+      "line": null,
+      "symbol": "TopViewWithTitle",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/Deviceable.swift",
+      "line": null,
+      "symbol": "Deviceable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/Deviceable.swift",
+      "line": 27,
+      "symbol": "Deviceable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableSource.swift",
+      "line": 29,
+      "symbol": "UIDevice.isX()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 27,
+      "symbol": "DeviceType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 28,
+      "symbol": "DeviceType.iPhone4",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 29,
+      "symbol": "DeviceType.iPhone4s",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 30,
+      "symbol": "DeviceType.iPhone5",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 31,
+      "symbol": "DeviceType.iPhone5c",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 32,
+      "symbol": "DeviceType.iPhone5s",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 33,
+      "symbol": "DeviceType.iPhone6",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 34,
+      "symbol": "DeviceType.iPhone6Plus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 35,
+      "symbol": "DeviceType.iPhone6s",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 36,
+      "symbol": "DeviceType.iPhone6sPlus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 37,
+      "symbol": "DeviceType.iPhone7",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 38,
+      "symbol": "DeviceType.iPhone7Plus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 39,
+      "symbol": "DeviceType.iPhoneSE",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 40,
+      "symbol": "DeviceType.iPhone8",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 41,
+      "symbol": "DeviceType.iPhone8Plus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 42,
+      "symbol": "DeviceType.iPhoneX",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 43,
+      "symbol": "DeviceType.iPhoneXs",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 44,
+      "symbol": "DeviceType.iPhoneXsMax",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 45,
+      "symbol": "DeviceType.iPhoneXr",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 46,
+      "symbol": "DeviceType.iPad2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 47,
+      "symbol": "DeviceType.iPad3",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 48,
+      "symbol": "DeviceType.iPad4",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 49,
+      "symbol": "DeviceType.iPadAir",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 50,
+      "symbol": "DeviceType.iPadAir2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 51,
+      "symbol": "DeviceType.iPad5",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 52,
+      "symbol": "DeviceType.iPad6",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 53,
+      "symbol": "DeviceType.iPadMini",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 54,
+      "symbol": "DeviceType.iPadMini2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 55,
+      "symbol": "DeviceType.iPadMini3",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 56,
+      "symbol": "DeviceType.iPadMini4",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 57,
+      "symbol": "DeviceType.iPadPro9Inch",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 58,
+      "symbol": "DeviceType.iPadPro12Inch",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 59,
+      "symbol": "DeviceType.iPadPro12Inch2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 60,
+      "symbol": "DeviceType.iPadPro10Inch",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 61,
+      "symbol": "DeviceType.iPadPro11Inch",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 62,
+      "symbol": "DeviceType.iPadPro12Inch3",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 63,
+      "symbol": "DeviceType.homePod",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 64,
+      "symbol": "DeviceType.simulator(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 65,
+      "symbol": "DeviceType.unknown(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 69,
+      "symbol": "DeviceDiagonal",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 70,
+      "symbol": "DeviceDiagonal.iPhone35",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 71,
+      "symbol": "DeviceDiagonal.iPhone40",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 72,
+      "symbol": "DeviceDiagonal.iPhone47",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 73,
+      "symbol": "DeviceDiagonal.iPhone55",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 74,
+      "symbol": "DeviceDiagonal.iPhone58",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 75,
+      "symbol": "DeviceDiagonal.iPhone61",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 76,
+      "symbol": "DeviceDiagonal.iPhone65",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 77,
+      "symbol": "DeviceDiagonal.iPad79",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 78,
+      "symbol": "DeviceDiagonal.iPad97",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 79,
+      "symbol": "DeviceDiagonal.iPad105",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 80,
+      "symbol": "DeviceDiagonal.iPad110",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 81,
+      "symbol": "DeviceDiagonal.iPad129",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Deviceable/DeviceableType.swift",
+      "line": 82,
+      "symbol": "DeviceDiagonal.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteConfig.swift",
+      "line": 29,
+      "symbol": "SQLiteConfig",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteConfig.swift",
+      "line": 30,
+      "symbol": "SQLiteConfig.logLevel",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteConfig.swift",
+      "line": 36,
+      "symbol": "SQLiteConfig.setDB(path:name:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteConfig.swift",
+      "line": 53,
+      "symbol": "SQLiteConfig.setDefaultDB(path:name:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteConfig.swift",
+      "line": 69,
+      "symbol": "SQLiteConfig.getDefaultDB()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteConfig.swift",
+      "line": 73,
+      "symbol": "SQLiteConfig.getDB(name:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteLogger.swift",
+      "line": 27,
+      "symbol": "LogLevel",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteLogger.swift",
+      "line": 28,
+      "symbol": "LogLevel.debug",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteLogger.swift",
+      "line": 28,
+      "symbol": "LogLevel.error",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteLogger.swift",
+      "line": 28,
+      "symbol": "LogLevel.info",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteLogger.swift",
+      "line": 28,
+      "symbol": "LogLevel.warn",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteModel.swift",
+      "line": 40,
+      "symbol": "SQLiteModel",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteModel.swift",
+      "line": 42,
+      "symbol": "SQLiteModel.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteModel.swift",
+      "line": 43,
+      "symbol": "SQLiteModel.created_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteModel.swift",
+      "line": 44,
+      "symbol": "SQLiteModel.updated_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteModel.swift",
+      "line": 46,
+      "symbol": "SQLiteModel.id",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteModel.swift",
+      "line": 47,
+      "symbol": "SQLiteModel.created_at",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteModel.swift",
+      "line": 48,
+      "symbol": "SQLiteModel.updated_at",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteModel.swift",
+      "line": 50,
+      "symbol": "SQLiteModel.CREATE_AT_KEY",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteModel.swift",
+      "line": 51,
+      "symbol": "SQLiteModel.UPDATE_AT_KEY",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteModel.swift",
+      "line": 55,
+      "symbol": "SQLiteModel.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteModel.swift",
+      "line": 59,
+      "symbol": "SQLiteModel.init(id:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteModel.swift",
+      "line": 65,
+      "symbol": "SQLiteModel.dbName",
+      "symbol_kind": "source.lang.swift.decl.var.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteModel.swift",
+      "line": 69,
+      "symbol": "SQLiteModel.PRIMARY_KEY",
+      "symbol_kind": "source.lang.swift.decl.var.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteModel.swift",
+      "line": 73,
+      "symbol": "SQLiteModel.isSaveDefaulttimestamp",
+      "symbol_kind": "source.lang.swift.decl.var.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteModel.swift",
+      "line": 77,
+      "symbol": "SQLiteModel.doubleTypes()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteModel.swift",
+      "line": 81,
+      "symbol": "SQLiteModel.mapper()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteModel.swift",
+      "line": 85,
+      "symbol": "SQLiteModel.transientTypes()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteModel.swift",
+      "line": 93,
+      "symbol": "SQLiteModel.created_date",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteModel.swift",
+      "line": 101,
+      "symbol": "SQLiteModel.updated_date",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteModel.swift",
+      "line": 110,
+      "symbol": "SQLiteModel.nameOfTable",
+      "symbol_kind": "source.lang.swift.decl.var.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteModel.swift",
+      "line": 114,
+      "symbol": "SQLiteModel.nameOfTable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteModel.swift",
+      "line": 131,
+      "symbol": "SQLiteModel.db",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteModel.swift",
+      "line": 136,
+      "symbol": "SQLiteModel.getTable()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteModel.swift",
+      "line": 140,
+      "symbol": "SQLiteModel.getTable()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 65,
+      "symbol": "SQLiteProtocol.findFirst(_:value:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 69,
+      "symbol": "SQLiteProtocol.findFirst(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 73,
+      "symbol": "SQLiteProtocol.findFirst(orderColumn:ascending:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 77,
+      "symbol": "SQLiteProtocol.findFirst(orders:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 81,
+      "symbol": "SQLiteProtocol.findFirst(_:value:_:ascending:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 85,
+      "symbol": "SQLiteProtocol.findFirst(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 89,
+      "symbol": "SQLiteProtocol.findFirst(_:orders:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 94,
+      "symbol": "SQLiteProtocol.findFirst(_:orders:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 98,
+      "symbol": "SQLiteProtocol.findFirst(_:orders:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 103,
+      "symbol": "SQLiteProtocol.findFirst(_:orders:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 109,
+      "symbol": "SQLiteProtocol.findAll(_:value:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 113,
+      "symbol": "SQLiteProtocol.findAll(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 118,
+      "symbol": "SQLiteProtocol.findAll(orderColumn:ascending:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 122,
+      "symbol": "SQLiteProtocol.findAll(orders:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 127,
+      "symbol": "SQLiteProtocol.findAll(_:orders:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 131,
+      "symbol": "SQLiteProtocol.findAll(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 161,
+      "symbol": "SQLiteProtocol.findAll(_:orders:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 167,
+      "symbol": "SQLiteProtocol.findAll(_:orders:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 173,
+      "symbol": "SQLiteProtocol.findAll(_:order:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 178,
+      "symbol": "SQLiteProtocol.findAll(_:orders:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 184,
+      "symbol": "SQLiteProtocol.findAll(_:orders:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 190,
+      "symbol": "SQLiteProtocol.findAll(order:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 195,
+      "symbol": "SQLiteProtocol.findAll(_:orders:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 228,
+      "symbol": "SQLiteProtocol.run()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 254,
+      "symbol": "SQLiteProtocol.query",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 268,
+      "symbol": "SQLiteProtocol.join(_:on:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 273,
+      "symbol": "SQLiteProtocol.join(_:on:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 278,
+      "symbol": "SQLiteProtocol.join(_:_:on:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 284,
+      "symbol": "SQLiteProtocol.join(_:_:on:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 290,
+      "symbol": "SQLiteProtocol.where(_:value:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 298,
+      "symbol": "SQLiteProtocol.where(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 306,
+      "symbol": "SQLiteProtocol.where(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 311,
+      "symbol": "SQLiteProtocol.where(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 316,
+      "symbol": "SQLiteProtocol.group(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 321,
+      "symbol": "SQLiteProtocol.group(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 326,
+      "symbol": "SQLiteProtocol.group(_:having:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 330,
+      "symbol": "SQLiteProtocol.group(_:having:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 335,
+      "symbol": "SQLiteProtocol.group(_:having:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 340,
+      "symbol": "SQLiteProtocol.group(_:having:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 345,
+      "symbol": "SQLiteProtocol.orderBy(_:asc:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 350,
+      "symbol": "SQLiteProtocol.orderBy(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 355,
+      "symbol": "SQLiteProtocol.order(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 360,
+      "symbol": "SQLiteProtocol.order(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 365,
+      "symbol": "SQLiteProtocol.limit(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 370,
+      "symbol": "SQLiteProtocol.limit(_:offset:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 378,
+      "symbol": "SQLiteProtocol.runDelete()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 394,
+      "symbol": "SQLiteProtocol.delete()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 414,
+      "symbol": "SQLiteProtocol.deleteBatch(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Query.swift",
+      "line": 440,
+      "symbol": "SQLiteProtocol.deleteAll()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Reflex.swift",
+      "line": 341,
+      "symbol": "SQLiteProtocol.recursionPropertiesOnlyColumn()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Reflex.swift",
+      "line": 368,
+      "symbol": "SQLiteProtocol.recursionProperties()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Reflex.swift",
+      "line": 399,
+      "symbol": "SQLiteProtocol.propertieColumnMap()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Save.swift",
+      "line": 32,
+      "symbol": "SQLiteProtocol.insert()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Save.swift",
+      "line": 77,
+      "symbol": "SQLiteProtocol.insertBatch(models:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Save.swift",
+      "line": 142,
+      "symbol": "SQLiteProtocol.update()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Save.swift",
+      "line": 178,
+      "symbol": "SQLiteProtocol.update(_:value:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Save.swift",
+      "line": 182,
+      "symbol": "SQLiteProtocol.update(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Save.swift",
+      "line": 188,
+      "symbol": "SQLiteProtocol.update(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Save.swift",
+      "line": 192,
+      "symbol": "SQLiteProtocol.update(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Save.swift",
+      "line": 221,
+      "symbol": "SQLiteProtocol.updateBatch(models:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Save.swift",
+      "line": 268,
+      "symbol": "SQLiteProtocol.update(_:value:where:wValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Save.swift",
+      "line": 272,
+      "symbol": "SQLiteProtocol.update(_:where:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Save.swift",
+      "line": 285,
+      "symbol": "SQLiteProtocol.update(_:where:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Save.swift",
+      "line": 294,
+      "symbol": "SQLiteProtocol.update(_:where:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Save.swift",
+      "line": 317,
+      "symbol": "SQLiteProtocol.update(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Save.swift",
+      "line": 338,
+      "symbol": "SQLiteProtocol.save()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Schame.swift",
+      "line": 29,
+      "symbol": "CreateColumnsProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Schame.swift",
+      "line": 30,
+      "symbol": "CreateColumnsProtocol.createColumns(t:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Schame.swift",
+      "line": 64,
+      "symbol": "SQLiteProtocol.createTable()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Schame.swift",
+      "line": 121,
+      "symbol": "SQLiteProtocol.dropTable()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Schame.swift",
+      "line": 135,
+      "symbol": "SQLiteProtocol.renameTable(oldName:newName:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Schame.swift",
+      "line": 148,
+      "symbol": "SQLiteProtocol.addColumn(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Schame.swift",
+      "line": 221,
+      "symbol": "SQLiteProtocol.createIndex(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Schame.swift",
+      "line": 233,
+      "symbol": "SQLiteProtocol.createIndex(_:unique:ifNotExists:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Schame.swift",
+      "line": 246,
+      "symbol": "SQLiteProtocol.dropIndex(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol+Schame.swift",
+      "line": 258,
+      "symbol": "SQLiteProtocol.dropIndex(_:ifExists:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol.swift",
+      "line": null,
+      "symbol": "SQLiteProtocol",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol.swift",
+      "line": null,
+      "symbol": "SQLiteProtocol",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol.swift",
+      "line": null,
+      "symbol": "SQLiteProtocol",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol.swift",
+      "line": null,
+      "symbol": "SQLiteProtocol",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteProtocol.swift",
+      "line": 28,
+      "symbol": "SQLiteProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteTypes.swift",
+      "line": 48,
+      "symbol": "NSNumber.declaredDatatype",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteTypes.swift",
+      "line": 52,
+      "symbol": "NSNumber.fromDatatypeValue(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteTypes.swift",
+      "line": 55,
+      "symbol": "NSNumber.datatypeValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteTypes.swift",
+      "line": 63,
+      "symbol": "NSDate.declaredDatatype",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteTypes.swift",
+      "line": 66,
+      "symbol": "NSDate.fromDatatypeValue(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteTypes.swift",
+      "line": 69,
+      "symbol": "NSDate.datatypeValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteUtils.swift",
+      "line": 28,
+      "symbol": "save(db:_:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteUtils.swift",
+      "line": 50,
+      "symbol": "saveAsync(db:_:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteUtils.swift",
+      "line": 82,
+      "symbol": "Connection.userVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteUtils.swift",
+      "line": 154,
+      "symbol": "Table.createIndexBrage(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteUtils.swift",
+      "line": 160,
+      "symbol": "Table.createIndexBrage(_:unique:ifNotExists:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteUtils.swift",
+      "line": 167,
+      "symbol": "Table.dropIndexBrage(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/SQLiteUtils/SQLiteUtils.swift",
+      "line": 172,
+      "symbol": "Table.dropIndexBrage(_:ifExists:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Validation/Regex/Regex.swift",
+      "line": 30,
+      "symbol": "Regex",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Validation/Regex/Regex.swift",
+      "line": 38,
+      "symbol": "Regex.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Validation/Regex/Regex.swift",
+      "line": 43,
+      "symbol": "Regex.matches(testStr:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Validation/Regex/Regex.swift",
+      "line": 48,
+      "symbol": "Regex.rangeOfFirstMatch(testStr:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Validation/Regex/Regex.swift",
+      "line": 52,
+      "symbol": "Regex.test(testStr:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Validation/String+Validation.swift",
+      "line": 28,
+      "symbol": "String.isEmail",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Validation/String+Validation.swift",
+      "line": 33,
+      "symbol": "String.isNumber",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Validation/String+Validation.swift",
+      "line": 55,
+      "symbol": "String.isValidate(by:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Validation/String+Validation.swift",
+      "line": 122,
+      "symbol": "String.isValidBankCard",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Validation/ValidationPassword.swift",
+      "line": 27,
+      "symbol": "PasswordType",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Validation/ValidationPassword.swift",
+      "line": 32,
+      "symbol": "PasswordType.number",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Validation/ValidationPassword.swift",
+      "line": 33,
+      "symbol": "PasswordType.special",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Validation/ValidationPassword.swift",
+      "line": 34,
+      "symbol": "PasswordType.capLetter",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Validation/ValidationPassword.swift",
+      "line": 35,
+      "symbol": "PasswordType.lowLetter",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Validation/ValidationPassword.swift",
+      "line": 36,
+      "symbol": "PasswordType.letter",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Validation/ValidationPassword.swift",
+      "line": 68,
+      "symbol": "String.checkContainsNumber()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Validation/ValidationPassword.swift",
+      "line": 71,
+      "symbol": "String.checkContainsLetter()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Validation/ValidationPassword.swift",
+      "line": 74,
+      "symbol": "String.checkContainsLowLetter()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Validation/ValidationPassword.swift",
+      "line": 77,
+      "symbol": "String.checkContainsCapLetter()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App/Single_App/Others/Service/Validation/ValidationPassword.swift",
+      "line": 80,
+      "symbol": "String.checkContainsSpecialChar()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
     }
   ],
-  "source_directory": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/Single_App"
+  "source_directory": "/Users/iCocos/Desktop/积木塔科技/Source/Single_App/trunk/Single_App"
 }

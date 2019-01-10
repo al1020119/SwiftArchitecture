@@ -10,14 +10,14 @@
 // **************************************************************
 //
 //  Single_App
-//  ObservableExtension.swift
+//  ObservableExtension
 //
-//  Created by iCocos on 2018/12/21.
+//  Created by iCocos on 2018/12/25.
 //  Copyright © 2018年 iCocos. All rights reserved.
 //
 // @class ObservableExtension.swift
-// @abstract <#类的描述#>
-// @discussion <#类的功能#>
+// @abstract RX观察者操作
+// @discussion RX实现网络请求监听所有数据与状态s逻辑
 //
 //░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 // **************************************************************
@@ -29,10 +29,13 @@ import HandyJSON
 import RxDataSources
 import Moya
 
+/// 相应服务
 public typealias NR = NetworkResponse
 
+// MARK: - 模型观察服务
 extension Observable where E == NR {
     
+    /// 完成回调
     public typealias Complete = ((NR) -> Void)?
     
     
@@ -213,8 +216,10 @@ extension Observable where E == NR {
             }
             }.showError()
     }
+    
 }
 
+// MARK: - 错误观察服务
 extension Observable {
     
     /// 输出error
@@ -225,8 +230,10 @@ extension Observable {
             }
         })
     }
+    
 }
 
+// MARK: - Map观察服务
 extension Observable where E: HandyJSON {
     
     /// 转dataSource
@@ -238,8 +245,10 @@ extension Observable where E: HandyJSON {
             return [SectionModel(model: text, items: [model])]
         }
     }
+    
 }
 
+// MARK: - Data观察服务
 extension Observable {
     
     /// 转dataSource
@@ -275,20 +284,25 @@ extension Observable {
             }
             
             return [SectionModel(model: "", items: [])]
-//            return singleSection
-//                ? [SectionModel(model: text, items: models)]
-//                : models.compactMap { SectionModel(model: text, items: [$0]) }
-            
+            //return singleSection ? [SectionModel(model: text, items: models)] : models.compactMap { SectionModel(model: text, items: [$0]) }
         }
     }
+    
 }
 
+// MARK: - 绑定选择器观察服务
 extension Observable {
+    
+    /// 绑定选择器
+    ///
+    /// - Parameter sel: 选择器
+    /// - Returns: 观察者对象
     public func bindToSelector(sel: Selector) -> Observable {
         return map{ element in
             return element
         }
     }
+    
 }
 
 

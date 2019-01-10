@@ -12,12 +12,12 @@
 //  Single_App
 //  String+Extension.swift
 //
-//  Created by iCocos on 2018/12/21.
-//  Copyright © 2018年 iCocos. All rights reserved.
+//  Created by iCocos on 2019/01/06.
+//  Copyright © 2019年 iCocos. All rights reserved.
 //
 // @class String+Extension.swift
-// @abstract <#类的描述#>
-// @discussion <#类的功能#>
+// @abstract String拓展
+// @discussion 实现String分类拓展操作
 //
 //░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 // **************************************************************

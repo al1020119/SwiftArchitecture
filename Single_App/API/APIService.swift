@@ -10,9 +10,9 @@
 // **************************************************************
 //
 //  Single_App
-//  APIService.swift
+//  APIService
 //
-//  Created by iCocos on 2018/12/21.
+//  Created by iCocos on 2018/12/25.
 //  Copyright © 2018年 iCocos. All rights reserved.
 //
 // @class APIService.swift
@@ -25,15 +25,22 @@
 import Foundation
 import Moya
 
+/// API服务类枚举
+///
+/// - loadCarBrand: 卡片数据
 public enum APIService {
     case loadCarBrand
 }
 
+// MARK: - API服务
 extension APIService: TargetType {
+    
+    /// 基础URL
     public var baseURL: URL {
         return URL(string: isRelease ? releaseUrl : debugUrl)!
     }
     
+    /// 路径
     public var path: String {
         switch self {
         case .loadCarBrand:
@@ -41,6 +48,7 @@ extension APIService: TargetType {
         }
     }
     
+    /// 方法
     public var method: Moya.Method {
         return .post
     }
@@ -50,18 +58,20 @@ extension APIService: TargetType {
         return "".data(using: .utf8)!
     }
     
+    /// 请求任务
     public var task: Task {
         return .requestParameters(parameters: parameters,
                                   encoding: parameterEncoding)
     }
     
+    /// 头信息
     public var headers: [String : String]? {
         return [
             "Content-Type" : "application/x-www-form-urlencoded"
         ]
     }
     
-    ///
+    /// 参数编码
     public var parameterEncoding: ParameterEncoding {
         return URLEncoding.default
     }
@@ -80,4 +90,5 @@ extension APIService: TargetType {
     public var cacheData: Bool {
         return true
     }
+    
 }

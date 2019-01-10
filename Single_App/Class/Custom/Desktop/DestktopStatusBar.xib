@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DestktopStatusBar" customModule="Single_App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="347" height="30"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iTunesArtworks" translatesAutoresizingMaskIntoConstraints="NO" id="FAF-pP-81l">
+                    <rect key="frame" x="10" y="5" width="25" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="2Q6-Aj-tfu"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iTunesArtworks" translatesAutoresizingMaskIntoConstraints="NO" id="byz-Nk-YNY">
+                    <rect key="frame" x="297" y="6" width="40" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="d8J-UK-URg"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="西红柿联通" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HPw-qh-zus">
+                    <rect key="frame" x="40" y="5" width="71.5" height="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="85%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Hh-CL-a9Q">
+                    <rect key="frame" x="259" y="3" width="33" height="24"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jEW-gY-1ET">
+                    <rect key="frame" x="300" y="9" width="34" height="12"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iTunesArtworks" translatesAutoresizingMaskIntoConstraints="NO" id="EVh-rh-RA3">
+                    <rect key="frame" x="117.5" y="5" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="EVh-rh-RA3" secondAttribute="height" id="h4s-Bj-cYp"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="byz-Nk-YNY" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="6" id="56U-k1-UPN"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="8Hh-CL-a9Q" secondAttribute="bottom" constant="3" id="5iF-o1-8YU"/>
+                <constraint firstItem="EVh-rh-RA3" firstAttribute="centerY" secondItem="HPw-qh-zus" secondAttribute="centerY" id="5zB-1k-xx0"/>
+                <constraint firstItem="HPw-qh-zus" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="5" id="A1M-f3-PRf"/>
+                <constraint firstItem="byz-Nk-YNY" firstAttribute="leading" secondItem="8Hh-CL-a9Q" secondAttribute="trailing" constant="5" id="C4g-bG-zQT"/>
+                <constraint firstItem="EVh-rh-RA3" firstAttribute="height" secondItem="HPw-qh-zus" secondAttribute="height" id="CNN-0A-zwj"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="byz-Nk-YNY" secondAttribute="trailing" constant="10" id="P0Z-F6-c9z"/>
+                <constraint firstItem="jEW-gY-1ET" firstAttribute="height" secondItem="byz-Nk-YNY" secondAttribute="height" constant="-6" id="SQR-m9-fPL"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="FAF-pP-81l" secondAttribute="bottom" constant="5" id="SqC-Oc-rk2"/>
+                <constraint firstItem="FAF-pP-81l" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="5" id="TO9-eP-l2B"/>
+                <constraint firstItem="HPw-qh-zus" firstAttribute="leading" secondItem="FAF-pP-81l" secondAttribute="trailing" constant="5" id="d3e-ot-ZF5"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="HPw-qh-zus" secondAttribute="bottom" constant="5" id="frO-4M-EaD"/>
+                <constraint firstItem="jEW-gY-1ET" firstAttribute="centerX" secondItem="byz-Nk-YNY" secondAttribute="centerX" id="i6t-Aq-ibF"/>
+                <constraint firstItem="FAF-pP-81l" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="nK6-om-iUF"/>
+                <constraint firstItem="8Hh-CL-a9Q" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="3" id="pak-PJ-V1l"/>
+                <constraint firstItem="EVh-rh-RA3" firstAttribute="leading" secondItem="HPw-qh-zus" secondAttribute="trailing" constant="6" id="rs2-WF-TvB"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="byz-Nk-YNY" secondAttribute="bottom" constant="6" id="t1w-s8-Tcs"/>
+                <constraint firstItem="jEW-gY-1ET" firstAttribute="centerY" secondItem="byz-Nk-YNY" secondAttribute="centerY" id="xOf-rB-VOd"/>
+                <constraint firstItem="jEW-gY-1ET" firstAttribute="width" secondItem="byz-Nk-YNY" secondAttribute="width" constant="-6" id="xkl-o4-D5D"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="batteryValuePercentage" destination="8Hh-CL-a9Q" id="uO4-uh-adG"/>
+                <outlet property="batteryValueProgress" destination="jEW-gY-1ET" id="3MD-4q-mhv"/>
+                <outlet property="carrierTypeText" destination="EVh-rh-RA3" id="2ln-eD-AzL"/>
+                <outlet property="operatorText" destination="HPw-qh-zus" id="C0z-yg-TzS"/>
+                <outlet property="singleImage" destination="FAF-pP-81l" id="Rf4-ML-e4s"/>
+            </connections>
+            <point key="canvasLocation" x="116" y="-130.43478260869566"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="iTunesArtworks" width="512" height="512"/>
+    </resources>
+</document>

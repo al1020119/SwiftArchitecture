@@ -12,12 +12,12 @@
 //  Single_App
 //  SizeMacros.swift
 //
-//  Created by iCocos on 2018/12/21.
-//  Copyright © 2018年 iCocos. All rights reserved.
+//  Created by iCocos on 2019/01/06.
+//  Copyright © 2019年 iCocos. All rights reserved.
 //
 // @class SizeMacros.swift
-// @abstract <#类的描述#>
-// @discussion <#类的功能#>
+// @abstract Size宏
+// @discussion 实现基本的Size宏操作与服务
 //
 //░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 // **************************************************************
@@ -47,3 +47,25 @@ let navigationHeaderAndStatusbarHeight : CGFloat = navigationHeight + statubarHe
 
 func SingleScreenWidth() -> CGFloat{return UIScreen.main.bounds.size.width}
 func SingleScreenHeight() -> CGFloat{return UIScreen.main.bounds.size.height}
+
+/***********************************iPhoneX判断**********************************************/
+
+/** ModelSize */
+//+ (BOOL)isIphoneX_Model {
+//    BOOL response = [UIScreen instancesRespondToSelector:@selector(currentMode)];
+//    return response ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO;
+//}
+
+///** StatusBar */
+//+ (BOOL)isIphoneX_StBar {
+//    UIApplication *app = [UIApplication sharedApplication];
+//    UIView *statusBar = [app valueForKeyPath:@"statusBar"];
+//    BOOL isModernStatusBar = [statusBar isKindOfClass:NSClassFromString(@"UIStatusBar_Modern")];
+//    return isModernStatusBar; // 在 iPhone X 上 statusBar 属于 UIStatusBar_Modern ，需要特殊处理
+//}
+
+///** BoundsSize */
+//+ (BOOL)isIphoneX_Bounds {
+//    CGRect bounds = [[UIScreen mainScreen] bounds];
+//    return (bounds.size.height == 812.0 && bounds.size.width == 375.0);
+//}

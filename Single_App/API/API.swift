@@ -10,9 +10,9 @@
 // **************************************************************
 //
 //  Single_App
-//  API.swift
+//  API
 //
-//  Created by iCocos on 2018/12/21.
+//  Created by iCocos on 2018/12/25.
 //  Copyright © 2018年 iCocos. All rights reserved.
 //
 // @class API.swift
@@ -33,9 +33,18 @@ public struct NetworkResponse: HandyJSON {
     var data: Any?
     var error: APIError?
     
+    /// Api初始化
     public init() {
         self.init(code: 0, message: nil, data: nil, error: nil)
     }
+    
+    /// Api初始化
+    ///
+    /// - Parameters:
+    ///   - code: 状态码
+    ///   - message: 消息
+    ///   - data: 数据
+    ///   - error: 错误
     public init(code: Int, message: String?, data: Any?, error: APIError?) {
         self.code = code
         self.message = message

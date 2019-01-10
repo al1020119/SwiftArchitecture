@@ -10,14 +10,14 @@
 // **************************************************************
 //
 //  Single_App
-//  RequestCacheProtocol.swift
+//  RequestCacheProtocol
 //
-//  Created by iCocos on 2018/12/21.
+//  Created by iCocos on 2018/12/25.
 //  Copyright © 2018年 iCocos. All rights reserved.
 //
 // @class RequestCacheProtocol.swift
-// @abstract <#类的描述#>
-// @discussion <#类的功能#>
+// @abstract 请求缓存
+// @discussion 网络请求缓存与加载协议
 //
 //░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 // **************************************************************
@@ -27,22 +27,32 @@ import SwiftyJSON
 import Moya
 import YYCache
 
+/// 请求缓存协议
 protocol RequestCacheProtocol {
+    
     static var cacheName: String { get }
     /// 从缓存获取数据
     static func loadDataFromCacheWithTarget(_ target: APIService, success: @escaping (NR) -> Void, failure: @escaping (Error?) -> Void)
     
     /// 从网络获取数据
     static func loadDataFromNetworkWithTarget(_ target: APIService, success: @escaping (NR) -> Void, failure: @escaping (Error?) -> Void)
+
 }
 
+// MARK: - 网络请求缓存
 extension RequestCacheProtocol where Self: NetworkingHandler {
     
+    /// 缓存标识
     static var cacheName: String {
         return "NETWORKDATA"
     }
     
     /// 从缓存获取数据
+    ///
+    /// - Parameters:
+    ///   - target: Api目标服务
+    ///   - success: 成功状态
+    ///   - failure: 失败状态
     static func loadDataFromCacheWithTarget(_ target: APIService, success: @escaping (NR) -> Void, failure: @escaping (Error?) -> Void) {
         
         let paramsStr = JSON(arrayLiteral: target.parameters).rawString() ?? ""
@@ -72,7 +82,13 @@ extension RequestCacheProtocol where Self: NetworkingHandler {
         #endif
     }
     
+    
     /// 从网络获取数据
+    ///
+    /// - Parameters:
+    ///   - target: Api目标服务
+    ///   - success: 成功状态
+    ///   - failure: 失败状态
     static func loadDataFromNetworkWithTarget(_ target: APIService, success: @escaping (NR) -> Void, failure: @escaping (Error?) -> Void) {
         // 从网络获取数据
         APIProvider.request(target) { (response) in
@@ -106,4 +122,5 @@ extension RequestCacheProtocol where Self: NetworkingHandler {
             }
         }
     }
+    
 }

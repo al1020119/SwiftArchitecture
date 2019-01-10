@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "01F201147AE1626CABD6991EE32A0538"
+               BlueprintIdentifier = "5BA0E2D720606DC7C5F64E8CFC78358D"
                BlueprintName = "Then"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "Then.framework">

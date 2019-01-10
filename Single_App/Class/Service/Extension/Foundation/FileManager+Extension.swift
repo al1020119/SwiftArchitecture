@@ -12,12 +12,12 @@
 //  Single_App
 //  FileManager+Extension.swift
 //
-//  Created by iCocos on 2018/12/21.
-//  Copyright © 2018年 iCocos. All rights reserved.
+//  Created by iCocos on 2019/01/06.
+//  Copyright © 2019年 iCocos. All rights reserved.
 //
 // @class FileManager+Extension.swift
-// @abstract <#类的描述#>
-// @discussion <#类的功能#>
+// @abstract FileManager拓展
+// @discussion 实现FileManager分类拓展操作
 //
 //░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 // **************************************************************

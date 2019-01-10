@@ -12,12 +12,12 @@
 //  Single_App
 //  ApiMacros.swift
 //
-//  Created by iCocos on 2018/12/21.
+//  Created by iCocos on 2018/12/23.
 //  Copyright © 2018年 iCocos. All rights reserved.
 //
 // @class ApiMacros.swift
-// @abstract <#类的描述#>
-// @discussion <#类的功能#>
+// @abstract Api宏
+// @discussion 实现基本的Api宏操作与服务
 //
 //░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 // **************************************************************
