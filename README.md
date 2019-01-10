@@ -8,6 +8,48 @@
 
 ###### 项目介绍：
 
+### 功能
+```bahs
+MVVM模式
+Alamofire
+RX
+骨骼动画
+Swift闭包
+JSON处理
+Kingfisher图片
+SnapKit适配
+Bugly异常统计
+友盟用户与行为统计
+Mob服务
+动画
+富文本
+主题
+SQLite数据库
+SwiftyUserDefaults用户配置
+lottie-ios+AE
+加密弹窗
+各种拓展和工具
+设备服务
+TiledMap
+用户与验证
+正则
+Router路由
+组件式
+动态配置
+红点
+引导页：图片，gif，视频
+用户与配置持久化
+网络请求，音视频播放
+JS交互
+聊天界面
+朋友圈界面
+TableView+MVVM+Cell自适应
+Label打字效果
+网络层封装
+```
+
+#### 涵盖以上App常用的基本功能，使用纯swift+cocopod+响应式+组件化
+
 ### 文档：
 
 + 项目Fiction_Singles 主要以 MVVM 为架构对各个模块功能与逻辑分层处理。
