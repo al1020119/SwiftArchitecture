@@ -47,6 +47,8 @@ JS交互与相应
 TableView+MVVM+Cell自适应
 Label打字效果
 网络层封装
+Jazzy文档化操作
+fastlane自动化脚本打包
 ```
 
 #### 涵盖以上App常用的基本功能，使用纯swift+cocopod+响应式+组件化
